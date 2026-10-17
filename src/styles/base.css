@@ -1,0 +1,120 @@
+/* Ahwa: a hand-painted Cairo café sign, as a website.
+   Flat post red, tea mustard, ahwa-wall slate, maroon and bone; compressed capitals over a plain grotesk. */
+:root {
+  --red: #dc1928;
+  --maroon: #952625;
+  --mustard: #e0a912;
+  --slate: #4a6f84;
+  --bone: #e2dccf;
+  --surface: #d7d0c1;
+  --surface-2: #cdc5b4;
+  --ink: #2a1110;
+  --muted: #5e4741;
+  --paper: #f8f6f2;
+  --on-dark: #ffffff;
+
+  --display: 'Anton', 'Arial Narrow', sans-serif;
+  --text: 'Work Sans', system-ui, sans-serif;
+  --display-case: uppercase;
+
+  --step-small: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --step-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+  --step-head: clamp(2.5rem, 1.2rem + 5vw, 5.5rem);
+
+  --margin: clamp(16px, 2vw, 28px);
+  --radius: 0px;
+  --nav-h: 64px;
+
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --ease-in-out: cubic-bezier(.77, 0, .175, 1);
+  --press: 140ms;
+}
+/* Arabic: a signage display face and a clear text face */
+:root[dir='rtl'] {
+  --display: 'Lalezar', 'IBM Plex Sans Arabic', sans-serif;
+  --text: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  --display-case: none;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scrollbar-color: var(--muted) var(--bone); }
+body {
+  margin: 0; background: var(--bone); color: var(--ink);
+  font-family: var(--text); font-size: var(--step-body); line-height: 1.5;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  caret-color: var(--red);
+}
+img, svg { display: block; max-width: 100%; }
+h1, h2, h3, p, figure { margin: 0; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; text-transform: var(--display-case); letter-spacing: -0.01em; line-height: .88; text-wrap: balance; }
+:root[dir='rtl'] h1, :root[dir='rtl'] h2, :root[dir='rtl'] h3 { line-height: 1.12; letter-spacing: 0; }
+a { color: inherit; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+::selection { background: var(--mustard); color: var(--ink); }
+:focus-visible { outline: 3px solid var(--mustard); outline-offset: 2px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.skip { position: fixed; z-index: 100; inset-inline-start: 8px; top: 8px; padding: 10px 14px; background: var(--ink); color: var(--paper); transform: translateY(-160%); transition: transform 200ms var(--ease-out); }
+.skip:focus { transform: none; }
+
+/* ---------- buttons: square, flat, one fill ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+  min-height: 48px; padding: 0 22px; border: 0; border-radius: var(--radius);
+  background: var(--ink); color: var(--paper); text-decoration: none; font-weight: 600;
+  transition: transform var(--press) var(--ease-out), background-color 200ms ease, color 200ms ease;
+  white-space: nowrap;
+}
+.btn:active { transform: scale(.97); }
+.btn--accent { background: var(--slate); color: var(--on-dark); }
+.btn--light { background: var(--paper); color: var(--ink); }
+.btn--ghost { background: color-mix(in srgb, var(--ink) 8%, transparent); color: var(--ink); }
+@media (hover: hover) and (pointer: fine) {
+  .btn:hover { background: #3d1a18; }
+  .btn--accent:hover { background: #3c5c6e; }
+  .btn--light:hover { background: #fff; }
+  .btn--ghost:hover { background: color-mix(in srgb, var(--ink) 14%, transparent); }
+}
+.arr { display: inline-block; transition: translate 220ms var(--ease-out); }
+:root[dir='rtl'] .arr { scale: -1 1; }
+@media (hover: hover) and (pointer: fine) { .btn:hover .arr { translate: 4px 0; } :root[dir='rtl'] .btn:hover .arr { translate: -4px 0; } }
+
+/* ---------- navigation: wordmark, a few links, one action ---------- */
+.nav {
+  position: sticky; top: 0; z-index: 40; height: var(--nav-h);
+  display: flex; align-items: center; gap: 24px; padding: 0 var(--margin);
+  background: var(--bone); color: var(--ink);
+}
+.nav--home { position: absolute; inset-inline: 0; background: transparent; color: var(--paper); }
+.nav__mark { display: inline-flex; align-items: baseline; gap: 8px; text-decoration: none; font-family: 'Anton', sans-serif; font-size: 28px; letter-spacing: .01em; line-height: 1; }
+.nav__mark-ar { font-family: 'Lalezar', sans-serif; font-size: 24px; }
+.nav__links { display: flex; align-items: center; gap: 22px; margin-inline-start: auto; font-weight: 600; font-size: 16px; }
+.nav__links a { text-decoration: none; padding: 8px 0; position: relative; }
+.nav__links a::after { content: ''; position: absolute; inset-inline: 0; bottom: 2px; height: 3px; background: currentColor; transform: scaleX(0); transform-origin: var(--origin, left); transition: transform 260ms var(--ease-out); }
+:root[dir='rtl'] .nav__links a::after { --origin: right; }
+.nav__links a.active::after { transform: scaleX(1); }
+@media (hover: hover) and (pointer: fine) { .nav__links a:hover::after { transform: scaleX(1); } }
+.nav__count { display: inline-grid; place-items: center; min-width: 22px; height: 22px; margin-inline-start: 6px; padding: 0 6px; background: var(--red); color: var(--on-dark); font-size: 13px; }
+.nav__lang { border: 0; background: none; padding: 8px 0; font-weight: 600; font-size: 16px; }
+.nav__lang:lang(ar) { font-family: 'IBM Plex Sans Arabic', sans-serif; }
+.nav__cta { min-height: 44px; }
+@media (max-width: 700px) {
+  .nav { gap: 14px; }
+  .nav__links { gap: 14px; font-size: 15px; }
+  .nav__cta { display: none; }
+}
+
+.page-loading { min-height: calc(100svh - var(--nav-h)); background: var(--bone); }
+
+/* ---------- view transitions: a quick cross-fade by default, shared elements morph ---------- */
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 260ms; animation-timing-function: var(--ease-out); }
+::view-transition-group(*) { animation-duration: 420ms; animation-timing-function: var(--ease-out); }
+::view-transition-old(cafe-name), ::view-transition-new(cafe-name) { height: 100%; width: auto; object-fit: none; }
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+}
+
+/* ---------- section entrances (content is visible if scripts fail) ---------- */
+.rise { opacity: 1; }

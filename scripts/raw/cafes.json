@@ -1,0 +1,5903 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-17T03:46:49Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 331150968,
+  "lat": 30.0452259,
+  "lon": 31.2404598,
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:street": "شارع عبد السلام عارف - البستان سابقا",
+    "amenity": "cafe",
+    "bar": "yes",
+    "internet_access": "no",
+    "name": "الحرية",
+    "name:ar": "الحرية",
+    "name:en": "Al Horreya Cafe",
+    "opening_hours": "Mo-Su 06:00-03:00",
+    "outdoor_seating": "no",
+    "phone": "+20223920397"
+  }
+},
+{
+  "type": "node",
+  "id": 366456632,
+  "lat": 30.0647127,
+  "lon": 31.2157953,
+  "tags": {
+    "amenity": "cafe",
+    "name": "سيلانترو",
+    "name:ar": "سيلانترو",
+    "name:en": "Cilantro"
+  }
+},
+{
+  "type": "node",
+  "id": 366472696,
+  "lat": 30.0596475,
+  "lon": 31.2224016,
+  "tags": {
+    "amenity": "cafe",
+    "name": "سيموندس",
+    "name:ar": "سيموندس",
+    "name:en": "Simonds"
+  }
+},
+{
+  "type": "node",
+  "id": 411893685,
+  "lat": 30.0921141,
+  "lon": 31.3231629,
+  "tags": {
+    "addr:country": "EG",
+    "addr:district": "مصر الجديده",
+    "addr:district:en": "Heliopolis",
+    "addr:housenumber": "25",
+    "addr:postcode": "11737",
+    "addr:province": "القاهرة",
+    "addr:province:en": "Cairo",
+    "addr:street": "شارع الاهرام",
+    "addr:street:en": "Al Ahram Street",
+    "addr:subdistrict": "المنتزه",
+    "addr:subdistrict:en": "Al Muntazah",
+    "amenity": "cafe",
+    "brand": "Coffeeshop Company",
+    "brand:wikidata": "Q873767",
+    "cuisine": "coffee_shop",
+    "name": "Coffeeshop Company",
+    "name:ar": "كوفى شوب كومبانى",
+    "name:en": "Coffee Shop Company",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 442290074,
+  "lat": 30.0660883,
+  "lon": 31.3442363,
+  "tags": {
+    "amenity": "cafe",
+    "name": "بينوس كافيه",
+    "name:ar": "بينوس كافيه",
+    "name:en": "Benos Cafe",
+    "note": "correct arabic tag"
+  }
+},
+{
+  "type": "node",
+  "id": 451737948,
+  "lat": 30.0327030,
+  "lon": 31.2150340,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "terminal"
+  }
+},
+{
+  "type": "node",
+  "id": 452377475,
+  "lat": 30.0903120,
+  "lon": 31.3192612,
+  "tags": {
+    "amenity": "cafe",
+    "name": "جروبى",
+    "name:ar": "جروبى",
+    "name:en": "Groppy"
+  }
+},
+{
+  "type": "node",
+  "id": 485923915,
+  "lat": 30.0081137,
+  "lon": 31.2306199,
+  "tags": {
+    "addr:housenumber": "38",
+    "addr:street": "شارع مار جرجس",
+    "alt_name": "مطعم و مقهى شرقي",
+    "amenity": "cafe",
+    "name": "مطعم و مقهى شرقي",
+    "name:ar": "مطعم و مقهى شرقي",
+    "name:en": "Oriental Restaurant & Caffe"
+  }
+},
+{
+  "type": "node",
+  "id": 602469414,
+  "lat": 30.0904002,
+  "lon": 31.3157294,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Costa Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 820771831,
+  "lat": 30.0415457,
+  "lon": 31.2672233,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 972350132,
+  "lat": 30.0902662,
+  "lon": 31.3236007,
+  "tags": {
+    "alt_name": "بينوس",
+    "amenity": "cafe",
+    "name": "بينوس",
+    "name:ar": "بينوس",
+    "name:en": "Beano's"
+  }
+},
+{
+  "type": "node",
+  "id": 1097873686,
+  "lat": 30.1194979,
+  "lon": 31.3989496,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 1098048851,
+  "lat": 30.1264771,
+  "lon": 31.4043101,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 1098048900,
+  "lat": 30.1252244,
+  "lon": 31.4036663,
+  "tags": {
+    "amenity": "cafe",
+    "name": "أير مول",
+    "name:ar": "أير مول",
+    "name:en": "Air Mall"
+  }
+},
+{
+  "type": "node",
+  "id": 1098049020,
+  "lat": 30.1129466,
+  "lon": 31.3958879,
+  "tags": {
+    "amenity": "cafe",
+    "name": "باشا",
+    "name:ar": "باشا",
+    "name:en": "Basha"
+  }
+},
+{
+  "type": "node",
+  "id": 1262216203,
+  "lat": 30.0469677,
+  "lon": 31.2382388,
+  "tags": {
+    "addr:city": "القاهرة",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/p/Cafe-Richeeg-100063512576390/",
+    "contact:instagram": "https://www.instagram.com/CafeRiche/",
+    "int_name": "Cafe Riche",
+    "name": "قهوة ريش",
+    "name:ar": "قهوة ريش",
+    "name:en": "Café Riche",
+    "outdoor_seating": "no",
+    "phone": "+201006042990",
+    "start_date": "1980",
+    "wikidata": "Q6866455",
+    "wikimedia_commons": "Category:Café Riche (Cairo)",
+    "wikipedia": "en:Café Riche"
+  }
+},
+{
+  "type": "node",
+  "id": 1262216226,
+  "lat": 30.0476018,
+  "lon": 31.2380692,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:place": "ميدان طلعت حرب",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/groppigarden/",
+    "name": "جروبي",
+    "name:ar": "جروبي",
+    "name:de": "Groppi",
+    "name:en": "Groppi",
+    "name:fr": "Groppi",
+    "opening_hours": "Mo-Su 07:00-01:00",
+    "outdoor_seating": "yes",
+    "phone": "+20223911871",
+    "shop": "bakery",
+    "wikidata": "Q6757577",
+    "wikimedia_commons": "Category:Groppi"
+  }
+},
+{
+  "type": "node",
+  "id": 1454011105,
+  "lat": 30.0613546,
+  "lon": 31.2227769,
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:street": "Brazil Street",
+    "amenity": "cafe",
+    "email": "info@nolabakery.com",
+    "name": "NOLA Cupcakes",
+    "phone": "27366494",
+    "phone:mobile": "0111127738",
+    "website": "https://nolabakery.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 1480629769,
+  "lat": 29.9570511,
+  "lon": 31.2607498,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "bar": "no",
+    "branch": "Road 9, Maadi",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "check_date": "2025-06-29",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "Orange Wifi",
+    "name": "Costa",
+    "name:ar": "كوستا",
+    "opening_hours": "07:00-01:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "16460",
+    "smoking": "outside",
+    "source": "survey",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "toilets:menstrual_products": "no",
+    "toilets:wheelchair": "no",
+    "website:menu": "https://qrco.de/bcqYOd"
+  }
+},
+{
+  "type": "node",
+  "id": 1480630175,
+  "lat": 29.9556029,
+  "lon": 31.2613963,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "name": "Cafe Greco",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 1677352889,
+  "lat": 30.0688572,
+  "lon": 31.3556780,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Costa Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 1772677318,
+  "lat": 30.0436079,
+  "lon": 31.2372471,
+  "tags": {
+    "addr:street": "Mohamed Mahmoud",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Cilantro"
+  }
+},
+{
+  "type": "node",
+  "id": 1788243864,
+  "lat": 29.9754989,
+  "lon": 31.3156610,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "american"
+  }
+},
+{
+  "type": "node",
+  "id": 1912904268,
+  "lat": 30.0499139,
+  "lon": 31.2420145,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Kunst Gallery and Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 1922176938,
+  "lat": 30.0575892,
+  "lon": 31.1827293,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Al-Dawar Cafe",
+    "name:ar": "قهوة الدوار",
+    "name:en": "Al-Dawar Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2109934621,
+  "lat": 30.0422847,
+  "lon": 31.1981488,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name:ar": "سيلانترو",
+    "name:en": "Cilantro"
+  }
+},
+{
+  "type": "node",
+  "id": 2112432272,
+  "lat": 30.0397215,
+  "lon": 31.2057313,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
+    "cuisine": "coffee_shop",
+    "name": "Costa",
+    "name:ar": "كوستا",
+    "name:en": "Costa",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2116839458,
+  "lat": 30.0407336,
+  "lon": 31.2026310,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Sugar Rush"
+  }
+},
+{
+  "type": "node",
+  "id": 2116839461,
+  "lat": 30.0406872,
+  "lon": 31.2029958,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Purple"
+  }
+},
+{
+  "type": "node",
+  "id": 2183718982,
+  "lat": 29.9537732,
+  "lon": 31.2629320,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Mugshot"
+  }
+},
+{
+  "type": "node",
+  "id": 2189647218,
+  "lat": 29.9536455,
+  "lon": 31.2633854,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "ice_cream",
+    "name": "Auntie Loulou"
+  }
+},
+{
+  "type": "node",
+  "id": 2189647219,
+  "lat": 29.9542976,
+  "lon": 31.2632333,
+  "tags": {
+    "addr:housenumber": "40",
+    "addr:street": "El Hadaek Street",
+    "amenity": "cafe",
+    "name": "Bikya - Second hand books and coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 2189652962,
+  "lat": 29.9534755,
+  "lon": 31.2635856,
+  "tags": {
+    "addr:housenumber": "45",
+    "addr:street": "Road 9",
+    "amenity": "cafe",
+    "cuisine": "ice_cream",
+    "name": "Movenpick Waffle Shop"
+  }
+},
+{
+  "type": "node",
+  "id": 2189652963,
+  "lat": 29.9535112,
+  "lon": 31.2635524,
+  "tags": {
+    "addr:housenumber": "45",
+    "addr:street": "Road 9",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Ma Tigoo Hookah Lounge"
+  }
+},
+{
+  "type": "node",
+  "id": 2191394785,
+  "lat": 29.9603487,
+  "lon": 31.2768049,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:housenumber": "23",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 213",
+    "amenity": "cafe",
+    "check_date": "2025-11-23",
+    "contact:facebook": "https://www.facebook.com/espressolabtr",
+    "contact:instagram": "https://www.instagram.com/espressolabtr/",
+    "cuisine": "regional",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Espresso lab",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "outdoor_seating": "no",
+    "phone": "+20845554465",
+    "website": "https://espressolab.com/en"
+  }
+},
+{
+  "type": "node",
+  "id": 2195644532,
+  "lat": 29.9521753,
+  "lon": 31.2646743,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2195650507,
+  "lat": 29.9546720,
+  "lon": 31.2621844,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Brazilian Coffee Stores"
+  }
+},
+{
+  "type": "node",
+  "id": 2196938414,
+  "lat": 29.9568246,
+  "lon": 31.2606296,
+  "tags": {
+    "addr:housenumber": "70",
+    "addr:street": "شارع 9",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "cuisine": "dessert;cake",
+    "diet:gluten_free": "no",
+    "diet:vegetarian": "yes",
+    "name": "La Poire",
+    "name:ar": "لابوار",
+    "outdoor_seating": "no",
+    "phone": "19515",
+    "smoking": "no",
+    "website": "https://lapoire.me/",
+    "website:menu": "https://lapoire.me/CustomizedCakes/show/all_categories.php?lang=en",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2196979755,
+  "lat": 29.9580340,
+  "lon": 31.2597821,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Crumbs cupcakes & more",
+    "shop": "confectionery"
+  }
+},
+{
+  "type": "node",
+  "id": 2196984160,
+  "lat": 29.9589980,
+  "lon": 31.2590322,
+  "tags": {
+    "addr:housenumber": "90",
+    "addr:street": "شارع 9",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "check_date": "2025-11-23",
+    "cuisine": "coffee_shop",
+    "name": "Cilantro",
+    "outdoor_seating": "yes",
+    "smoking": "outside",
+    "toilets": "yes",
+    "website": "https://cilantro.cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2196984165,
+  "lat": 29.9591734,
+  "lon": 31.2586697,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Kahwet Share",
+    "name:ar": "قهوة شارع"
+  }
+},
+{
+  "type": "node",
+  "id": 2207995461,
+  "lat": 29.9589249,
+  "lon": 31.2604235,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Bike Yard Cafe",
+    "outdoor_seating": "yes",
+    "smoking": "isolated"
+  }
+},
+{
+  "type": "node",
+  "id": 2208039802,
+  "lat": 29.9592952,
+  "lon": 31.2629305,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Art Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2208167248,
+  "lat": 29.9592640,
+  "lon": 31.2699800,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "name": "Delight sweet house"
+  }
+},
+{
+  "type": "node",
+  "id": 2208254919,
+  "lat": 29.9510533,
+  "lon": 31.2667985,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Il Pennello Ceramic Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2208279224,
+  "lat": 29.9515758,
+  "lon": 31.2654792,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Barista"
+  }
+},
+{
+  "type": "node",
+  "id": 2228516668,
+  "lat": 29.9761865,
+  "lon": 31.2848546,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cilantro"
+  }
+},
+{
+  "type": "node",
+  "id": 2228558471,
+  "lat": 29.9757120,
+  "lon": 31.2842284,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Coffeeshop Company",
+    "brand:wikidata": "Q873767",
+    "cuisine": "coffee_shop",
+    "name": "Coffeeshop Company",
+    "takeaway": "yes",
+    "website": "https://www.coffeeshopcompany.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2228558481,
+  "lat": 29.9755951,
+  "lon": 31.2833804,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "operator": "Starbucks",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2228590386,
+  "lat": 29.9767763,
+  "lon": 31.2874328,
+  "tags": {
+    "amenity": "cafe",
+    "name": "hash café londonessence"
+  }
+},
+{
+  "type": "node",
+  "id": 2228665969,
+  "lat": 29.9836942,
+  "lon": 31.3203425,
+  "tags": {
+    "amenity": "cafe",
+    "name": "La Poire"
+  }
+},
+{
+  "type": "node",
+  "id": 2229198573,
+  "lat": 30.0336558,
+  "lon": 31.2191696,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Car Cafe Club"
+  }
+},
+{
+  "type": "node",
+  "id": 2229244939,
+  "lat": 30.0569372,
+  "lon": 31.2199210,
+  "tags": {
+    "amenity": "cafe",
+    "name": "tortina - beyond desert"
+  }
+},
+{
+  "type": "node",
+  "id": 2229263059,
+  "lat": 30.0651553,
+  "lon": 31.2216124,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
+    "cuisine": "coffee_shop",
+    "name": "Costa",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2229263085,
+  "lat": 30.0625362,
+  "lon": 31.2199006,
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:street": "Shagaret El Dor",
+    "amenity": "cafe",
+    "name": "Mandarine Koueider",
+    "phone": "+20227355010",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 2229263093,
+  "lat": 30.0636091,
+  "lon": 31.2203590,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Pure Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2298901401,
+  "lat": 30.0539457,
+  "lon": 31.2014578,
+  "tags": {
+    "addr:city": "القاهرة",
+    "amenity": "cafe",
+    "check_date": "2025-11-17",
+    "name": "سيلانترو",
+    "name:ar": "سيلانترو",
+    "name:en": "Cilantro"
+  }
+},
+{
+  "type": "node",
+  "id": 2448358087,
+  "lat": 30.1237438,
+  "lon": 31.3703752,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "اللؤلؤة",
+    "name:ar": "اللؤلؤة",
+    "name:en": "Al-Lu'lu'a"
+  }
+},
+{
+  "type": "node",
+  "id": 2448358091,
+  "lat": 30.1236705,
+  "lon": 31.3701212,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "الشمس",
+    "name:ar": "الشمس",
+    "name:en": "Al-Shams"
+  }
+},
+{
+  "type": "node",
+  "id": 2789898688,
+  "lat": 30.0469000,
+  "lon": 31.2410335,
+  "tags": {
+    "addr:city:en": "Cairo",
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2789898690,
+  "lat": 30.0481909,
+  "lon": 31.2427823,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2789898695,
+  "lat": 30.0483067,
+  "lon": 31.2430183,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "مزيكا",
+    "name:ar": "مزيكا",
+    "name:en": "Mazzika"
+  }
+},
+{
+  "type": "node",
+  "id": 2789898697,
+  "lat": 30.0484324,
+  "lon": 31.2426750,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2846249266,
+  "lat": 30.1007715,
+  "lon": 31.3766192,
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:city:ar": "القاهرة",
+    "addr:postcode": "11361",
+    "addr:street": "شارع مصطفى رفعت",
+    "addr:street:ar": "شارع مصطفى رفعت",
+    "alt_name": "كوفيشوب كومباني",
+    "alt_name:ar": "كوفيشوب كومباني",
+    "amenity": "cafe",
+    "brand": "Coffeeshop Company",
+    "brand:ar": "كفيشب كمباني",
+    "brand:wikidata": "Q873767",
+    "brand:wikipedia": "en:Coffeeshop Company",
+    "cuisine": "coffee_shop",
+    "internet_access": "yes",
+    "language:ar": "main",
+    "name": "Coffeeshop Company",
+    "name:ar": "كفيشب كمباني",
+    "name:en": "Coffeeshop Company",
+    "takeaway": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3008775412,
+  "lat": 30.0407058,
+  "lon": 31.2028616,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Karakeeb"
+  }
+},
+{
+  "type": "node",
+  "id": 3008775413,
+  "lat": 30.0412756,
+  "lon": 31.2030461,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Kanaka"
+  }
+},
+{
+  "type": "node",
+  "id": 3100191978,
+  "lat": 30.0526026,
+  "lon": 31.1934767,
+  "tags": {
+    "addr:city": "القاهرة",
+    "amenity": "cafe",
+    "name": "Bert's cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3220023870,
+  "lat": 30.0499524,
+  "lon": 31.2418653,
+  "tags": {
+    "addr:city": "القاهرة",
+    "amenity": "cafe",
+    "name": "Kapri"
+  }
+},
+{
+  "type": "node",
+  "id": 3220033998,
+  "lat": 30.0469928,
+  "lon": 31.2416427,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3220033999,
+  "lat": 30.0471448,
+  "lon": 31.2416601,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3220034000,
+  "lat": 30.0474571,
+  "lon": 31.2416615,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3220034001,
+  "lat": 30.0473294,
+  "lon": 31.2415756,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3220034002,
+  "lat": 30.0474629,
+  "lon": 31.2415689,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3220050770,
+  "lat": 30.0468767,
+  "lon": 31.2386983,
+  "tags": {
+    "addr:city": "القاهرة",
+    "amenity": "cafe",
+    "name": "Café Al Bustan",
+    "name:fr": "Café Al Bustan"
+  }
+},
+{
+  "type": "node",
+  "id": 3220069419,
+  "lat": 30.0048067,
+  "lon": 31.2300019,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3220069420,
+  "lat": 30.0042725,
+  "lon": 31.2304069,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3220069421,
+  "lat": 30.0045163,
+  "lon": 31.2301226,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3228271272,
+  "lat": 30.0649498,
+  "lon": 31.2053704,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "shisha",
+    "internet_access": "wlan",
+    "name": "Lifeguard",
+    "opening_hours": "10:00-02:00",
+    "smoking": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3228312057,
+  "lat": 30.0643764,
+  "lon": 31.2054911,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "shisha",
+    "name": "وادي عمر",
+    "name:ar": "وادي عمر",
+    "name:en": "Wadi Omar",
+    "smoking": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3232173026,
+  "lat": 30.0653896,
+  "lon": 31.2018837,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "regional",
+    "name": "Spotaia"
+  }
+},
+{
+  "type": "node",
+  "id": 3232173027,
+  "lat": 30.0655623,
+  "lon": 31.2015927,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-11-17",
+    "cuisine": "regional",
+    "name": "Time Out"
+  }
+},
+{
+  "type": "node",
+  "id": 3232188130,
+  "lat": 30.0650296,
+  "lon": 31.2022861,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "juice"
+  }
+},
+{
+  "type": "node",
+  "id": 3232726005,
+  "lat": 30.0641063,
+  "lon": 31.2052694,
+  "tags": {
+    "amenity": "cafe",
+    "name": "سيتي درنك عرابي",
+    "name:ar": "سيتي درنك عرابي",
+    "name:en": "Oraby City Drink"
+  }
+},
+{
+  "type": "node",
+  "id": 3311930429,
+  "lat": 30.0590230,
+  "lon": 31.2245168,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-30",
+    "name": "Coffee Island"
+  }
+},
+{
+  "type": "node",
+  "id": 3323245671,
+  "lat": 30.0601295,
+  "lon": 31.2214925,
+  "tags": {
+    "amenity": "cafe",
+    "name": "La Poire"
+  }
+},
+{
+  "type": "node",
+  "id": 3323245675,
+  "lat": 30.0593973,
+  "lon": 31.2229825,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "The Coffee Bean & Tea Leaf",
+    "brand:wikidata": "Q1141384",
+    "brand:wikipedia": "en:The Coffee Bean & Tea Leaf",
+    "check_date": "2024-10-21",
+    "cuisine": "coffee_shop",
+    "name": "Coffee Berry",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3340449297,
+  "lat": 30.1046261,
+  "lon": 31.3498356,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Hot Bite"
+  }
+},
+{
+  "type": "node",
+  "id": 3340450766,
+  "lat": 30.1044514,
+  "lon": 31.3495286,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cilantro sun mall",
+    "name:ar": "سيلانترو صن مول"
+  }
+},
+{
+  "type": "node",
+  "id": 3411281497,
+  "lat": 30.0913200,
+  "lon": 31.3239854,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3413152166,
+  "lat": 30.0629766,
+  "lon": 31.2037787,
+  "tags": {
+    "amenity": "cafe",
+    "name": "صهلله",
+    "name:ar": "صهلله",
+    "name:en": "sahlala",
+    "smoking": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3413152167,
+  "lat": 30.0631193,
+  "lon": 31.2035749,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3413152232,
+  "lat": 30.0668411,
+  "lon": 31.2047976,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3441468947,
+  "lat": 30.1241901,
+  "lon": 31.3701264,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "قهوة_النخيل",
+    "name": "قهوة النخيل",
+    "name:ar": "قهوة النخيل"
+  }
+},
+{
+  "type": "node",
+  "id": 3441497146,
+  "lat": 30.0645257,
+  "lon": 31.2157519,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-25",
+    "cuisine": "coffee_shop",
+    "name": "Pottery Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3441504328,
+  "lat": 30.0642701,
+  "lon": 31.2158584,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "no",
+    "name": "coffee bean"
+  }
+},
+{
+  "type": "node",
+  "id": 3687053259,
+  "lat": 30.0288731,
+  "lon": 31.4092491,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
+    "cuisine": "coffee_shop",
+    "name": "Costa",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3687053264,
+  "lat": 30.0283727,
+  "lon": 31.4090989,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيه سوبريم",
+    "name:ar": "كافيه سوبريم",
+    "name:en": "Cafe Supreme"
+  }
+},
+{
+  "type": "node",
+  "id": 3775689810,
+  "lat": 29.9559941,
+  "lon": 31.2615635,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كاراكاس كافيه",
+    "name:ar": "كاراكاس كافيه",
+    "name:en": "Caracas Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 3796672725,
+  "lat": 30.0598387,
+  "lon": 31.2240081,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ديلز",
+    "name:ar": "ديلز",
+    "name:en": "Deals"
+  }
+},
+{
+  "type": "node",
+  "id": 3815394181,
+  "lat": 30.0562792,
+  "lon": 31.1998100,
+  "tags": {
+    "addr:city": "القاهرة",
+    "amenity": "cafe",
+    "name": "لا بيترا",
+    "name:ar": "لا بيترا",
+    "name:en": "La Pietra"
+  }
+},
+{
+  "type": "node",
+  "id": 3966622151,
+  "lat": 30.0678392,
+  "lon": 31.2025722,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ogo cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4130237594,
+  "lat": 30.0738988,
+  "lon": 31.2819087,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوه افريكانو",
+    "name:ar": "قهوه افريكانو"
+  }
+},
+{
+  "type": "node",
+  "id": 4225510908,
+  "lat": 30.0535885,
+  "lon": 31.2010716,
+  "tags": {
+    "addr:city": "القاهرة",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;crepe;diner;donut;arab;breakfast;burger;cake;chicken;hot_dog;ice_cream;italian_pizza;kebab;pancake;pasta;pizza;sandwich;sausage;seafood;tea",
+    "diet:vegetarian": "yes",
+    "internet_access": "wlan",
+    "name": "قهوة المعلم احمد يونس",
+    "name:ar": "قهوة المعلم احمد يونس",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 4234554605,
+  "lat": 30.1095975,
+  "lon": 31.3276239,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوة الفيشاوي",
+    "name:ar": "قهوة الفيشاوي"
+  }
+},
+{
+  "type": "node",
+  "id": 4236642891,
+  "lat": 30.0863674,
+  "lon": 31.2169121,
+  "tags": {
+    "amenity": "cafe",
+    "name": "الوالي",
+    "name:ar": "الوالي"
+  }
+},
+{
+  "type": "node",
+  "id": 4253301691,
+  "lat": 30.0689730,
+  "lon": 31.3444914,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4270343991,
+  "lat": 30.0609805,
+  "lon": 31.3377354,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Bon shaheen mdint masr"
+  }
+},
+{
+  "type": "node",
+  "id": 4303630290,
+  "lat": 30.0162032,
+  "lon": 31.2128602,
+  "tags": {
+    "addr:street": "شارع مراد",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Ziznia",
+    "opening_hours": "24/7",
+    "phone": "023773338"
+  }
+},
+{
+  "type": "node",
+  "id": 4335010851,
+  "lat": 30.0493945,
+  "lon": 31.3290258,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Sahlala"
+  }
+},
+{
+  "type": "node",
+  "id": 4351818790,
+  "lat": 30.0888611,
+  "lon": 31.2178695,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Free time"
+  }
+},
+{
+  "type": "node",
+  "id": 4381401091,
+  "lat": 29.9664018,
+  "lon": 31.2528593,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوه فى المعادى جنب عادل",
+    "name:ar": "قهوه فى المعادى جنب عادل"
+  }
+},
+{
+  "type": "node",
+  "id": 4401746193,
+  "lat": 30.0445504,
+  "lon": 31.2175808,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "نفسين",
+    "name:ar": "نفسين",
+    "name:en": "nafasen"
+  }
+},
+{
+  "type": "node",
+  "id": 4410166689,
+  "lat": 30.0490794,
+  "lon": 31.2421766,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
+    "cuisine": "coffee_shop",
+    "name": "Costa",
+    "name:en": "Costa Coffee",
+    "opening_hours": "Mo-Su 07:00-02:00",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4533012693,
+  "lat": 30.1084779,
+  "lon": 31.3822539,
+  "tags": {
+    "amenity": "cafe",
+    "name": "مورانو",
+    "name:ar": "مورانو",
+    "name:en": "Morano"
+  }
+},
+{
+  "type": "node",
+  "id": 4533766193,
+  "lat": 30.0268441,
+  "lon": 31.2416947,
+  "tags": {
+    "addr:street": "Haret Al-Hussein",
+    "amenity": "cafe",
+    "name:en": "El fishawi"
+  }
+},
+{
+  "type": "node",
+  "id": 4554537492,
+  "lat": 30.0397853,
+  "lon": 31.3324515,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "المهدى إبن بركة",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "جواهر",
+    "name:ar": "جواهر",
+    "name:en": "Gawaher"
+  }
+},
+{
+  "type": "node",
+  "id": 4563423690,
+  "lat": 30.0691521,
+  "lon": 31.3365889,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ام كلثوم",
+    "name:ar": "ام كلثوم",
+    "name:en": "Om Kolthom"
+  }
+},
+{
+  "type": "node",
+  "id": 4564188689,
+  "lat": 30.0683536,
+  "lon": 31.3510806,
+  "tags": {
+    "addr:housenumber": "11",
+    "addr:street": "شارع عبد اللطيف حمزة",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "بارتيدو",
+    "name:ar": "بارتيدو",
+    "name:en": "Partido cafe",
+    "opening_hours": "Mo-Su 08:00-02:00",
+    "phone": "02 2354 7532"
+  }
+},
+{
+  "type": "node",
+  "id": 4565956503,
+  "lat": 29.9875687,
+  "lon": 31.3393391,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4566839290,
+  "lat": 30.1391433,
+  "lon": 31.3972310,
+  "tags": {
+    "addr:street": "محور جوزيف تيتو",
+    "amenity": "cafe",
+    "name": "كافيتريه",
+    "name:ar": "كافيتريه",
+    "name:en": "Cafeteria"
+  }
+},
+{
+  "type": "node",
+  "id": 4579836589,
+  "lat": 30.0562596,
+  "lon": 31.3580874,
+  "tags": {
+    "amenity": "cafe",
+    "name": "السمسميه",
+    "name:ar": "السمسميه"
+  }
+},
+{
+  "type": "node",
+  "id": 4584840593,
+  "lat": 30.1693819,
+  "lon": 31.4445089,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4595583290,
+  "lat": 30.1072204,
+  "lon": 31.3760490,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:postcode": "11351",
+    "addr:street": "شارع الدكتور عبد الحميد بدوي",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "بلاي ستيشن ايموشن",
+    "name:ar": "بلاي ستيشن ايموشن",
+    "name:en": "emotion playstation",
+    "opening_hours": "24/7",
+    "phone": "0222666031",
+    "website": "http://emtionplaystation@yahoo.om"
+  }
+},
+{
+  "type": "node",
+  "id": 4634834292,
+  "lat": 30.1277196,
+  "lon": 31.3224417,
+  "tags": {
+    "amenity": "cafe",
+    "name": "حبيشة",
+    "name:ar": "حبيشة"
+  }
+},
+{
+  "type": "node",
+  "id": 4645809789,
+  "lat": 30.0478664,
+  "lon": 31.3403588,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Tamasy lounge"
+  }
+},
+{
+  "type": "node",
+  "id": 4648504597,
+  "lat": 30.1072764,
+  "lon": 31.2080966,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوة العمده",
+    "name:ar": "قهوة العمده",
+    "name:en": "alamda cofe"
+  }
+},
+{
+  "type": "node",
+  "id": 4657350329,
+  "lat": 30.0208062,
+  "lon": 31.4950076,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:fr": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "name:fr": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "official_name:fr": "Café Starbucks",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4657643090,
+  "lat": 30.0256187,
+  "lon": 31.2261028,
+  "tags": {
+    "amenity": "cafe",
+    "name": "هانى حكاية ٢",
+    "name:ar": "هانى حكاية ٢",
+    "name:en": "Hany hekaya 2"
+  }
+},
+{
+  "type": "node",
+  "id": 4657745089,
+  "lat": 30.0252648,
+  "lon": 31.2260406,
+  "tags": {
+    "amenity": "cafe",
+    "name": "هانى حكاية ١",
+    "name:ar": "هانى حكاية ١",
+    "name:en": "Hany hekaya 1"
+  }
+},
+{
+  "type": "node",
+  "id": 4730802522,
+  "lat": 30.1239350,
+  "lon": 31.2708986,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Tango caffeشارع السادات"
+  }
+},
+{
+  "type": "node",
+  "id": 4764939521,
+  "lat": 30.1017433,
+  "lon": 31.2134302,
+  "tags": {
+    "amenity": "cafe",
+    "name": "الحاج علي",
+    "name:ar": "الحاج علي"
+  }
+},
+{
+  "type": "node",
+  "id": 5055818024,
+  "lat": 30.0982266,
+  "lon": 31.2559633,
+  "tags": {
+    "addr:street": "أحمد حلمي",
+    "amenity": "cafe",
+    "name": "ليالينا كافية",
+    "name:ar": "ليالينا كافية",
+    "name:en": "Layalina cofe",
+    "operator": "Abo-noáman"
+  }
+},
+{
+  "type": "node",
+  "id": 5063667421,
+  "lat": 30.0173593,
+  "lon": 31.2226505,
+  "tags": {
+    "amenity": "cafe",
+    "name": "نايل لونش",
+    "name:ar": "نايل لونش"
+  }
+},
+{
+  "type": "node",
+  "id": 5126160717,
+  "lat": 29.9952591,
+  "lon": 31.2224525,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 5134666145,
+  "lat": 30.0576515,
+  "lon": 31.3596363,
+  "tags": {
+    "amenity": "cafe",
+    "name": "دهب",
+    "name:ar": "دهب"
+  }
+},
+{
+  "type": "node",
+  "id": 5134666152,
+  "lat": 30.0561271,
+  "lon": 31.3616393,
+  "tags": {
+    "amenity": "cafe",
+    "name": "c'est La vie",
+    "name:ar": "c'est La vie"
+  }
+},
+{
+  "type": "node",
+  "id": 5135459639,
+  "lat": 29.9792761,
+  "lon": 31.2263823,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 5135459646,
+  "lat": 29.9786238,
+  "lon": 31.2215484,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 5195230423,
+  "lat": 29.9958972,
+  "lon": 31.4306300,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافي السرايا",
+    "name:ar": "كافي السرايا"
+  }
+},
+{
+  "type": "node",
+  "id": 5209229421,
+  "lat": 30.0126383,
+  "lon": 31.1763168,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ليالينا",
+    "name:ar": "ليالينا"
+  }
+},
+{
+  "type": "node",
+  "id": 5216706721,
+  "lat": 30.0200554,
+  "lon": 31.5012718,
+  "tags": {
+    "amenity": "cafe",
+    "name": "لاروما جورميه كافيه",
+    "name:ar": "لاروما جورميه كافيه",
+    "name:en": "L'Aroma Gourmet Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 5239351930,
+  "lat": 29.9804866,
+  "lon": 31.1014642,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name:en": "location Restaurant and Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 5295532775,
+  "lat": 30.0650905,
+  "lon": 31.2215436,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 5346018581,
+  "lat": 30.0512617,
+  "lon": 31.2444065,
+  "tags": {
+    "addr:city": "cairo",
+    "addr:housenumber": "09",
+    "addr:street": "شارع عدلي",
+    "addr:unit": "9",
+    "amenity": "cafe",
+    "description": "Azar Hotel***",
+    "name": "Azar Hotek***",
+    "opening_hours": "24/7",
+    "operator": "Azar Hotel***",
+    "outdoor_seating": "no",
+    "smoking": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5410966021,
+  "lat": 29.9904448,
+  "lon": 31.1343297,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "drink:coffee": "yes",
+    "drink:cola": "yes",
+    "drink:juice": "yes",
+    "drink:salep": "yes",
+    "drink:soft_drink": "yes",
+    "drink:tea": "yes",
+    "internet_access": "wlan",
+    "name": "مقهى المندرة",
+    "name:ar": "مقهى المندرة",
+    "name:en": "Al Mandara",
+    "television": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5497599689,
+  "lat": 30.0648595,
+  "lon": 31.4245771,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe Supreme"
+  }
+},
+{
+  "type": "node",
+  "id": 5498217580,
+  "lat": 30.0632085,
+  "lon": 31.2465775,
+  "tags": {
+    "amenity": "cafe",
+    "name": "danessi caffe"
+  }
+},
+{
+  "type": "node",
+  "id": 5527232221,
+  "lat": 30.0349176,
+  "lon": 31.2392383,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافتريا المنيرة",
+    "name:ar": "كافتريا المنيرة"
+  }
+},
+{
+  "type": "node",
+  "id": 5585377321,
+  "lat": 30.0531666,
+  "lon": 31.2623598,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Al Lord Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 5638625622,
+  "lat": 30.0618831,
+  "lon": 31.3605539,
+  "tags": {
+    "amenity": "cafe",
+    "name": "محل فرحات للحمام",
+    "name:ar": "محل فرحات للحمام"
+  }
+},
+{
+  "type": "node",
+  "id": 5659022821,
+  "lat": 30.0601142,
+  "lon": 31.2229222,
+  "tags": {
+    "amenity": "cafe",
+    "name": "2GO"
+  }
+},
+{
+  "type": "node",
+  "id": 5673121227,
+  "lat": 30.0432268,
+  "lon": 31.1937671,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافية ادم",
+    "name:ar": "كافية ادم"
+  }
+},
+{
+  "type": "node",
+  "id": 5779445653,
+  "lat": 30.0862034,
+  "lon": 31.3453947,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "italian_pizza;pizza;friture;burger;sandwich;italian;coffee_shop;arab",
+    "internet_access": "wlan",
+    "name:en": "La moula"
+  }
+},
+{
+  "type": "node",
+  "id": 5860415673,
+  "lat": 30.0771940,
+  "lon": 31.3181851,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:street": "Asmaa Zaghloul",
+    "amenity": "cafe",
+    "name": "The Location",
+    "opening_hours": "Mo-Su 09:00-02:00",
+    "phone": "01066551006"
+  }
+},
+{
+  "type": "node",
+  "id": 5860416099,
+  "lat": 30.0931425,
+  "lon": 31.3322188,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 5860416103,
+  "lat": 30.0758342,
+  "lon": 31.3194282,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Soltana"
+  }
+},
+{
+  "type": "node",
+  "id": 5873539789,
+  "lat": 30.0392605,
+  "lon": 31.2498919,
+  "tags": {
+    "amenity": "cafe",
+    "name": "سهر الليالي كافيه",
+    "name:ar": "سهر الليالي كافيه",
+    "name:en": "Sahar ElLayaley Caffe"
+  }
+},
+{
+  "type": "node",
+  "id": 5938245086,
+  "lat": 29.9621337,
+  "lon": 31.2626290,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Osana",
+    "name:ar": "Osana family wellness"
+  }
+},
+{
+  "type": "node",
+  "id": 6076351585,
+  "lat": 30.0641192,
+  "lon": 31.3505767,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ليالي زمان",
+    "name:ar": "ليالي زمان",
+    "name:en": "Layaly Zaman Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 6141045488,
+  "lat": 30.0572381,
+  "lon": 31.3647364,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيتريا راهندا",
+    "name:ar": "كافيتريا راهندا",
+    "name:en": "Cafeteria Rahnda"
+  }
+},
+{
+  "type": "node",
+  "id": 6188718574,
+  "lat": 30.0610196,
+  "lon": 31.2225483,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Four Fat Ladies",
+    "outdoor_seating": "no",
+    "source": "DuMont Reise-Taschenbuch Ägypten - Die klassische Nilreise",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6282760027,
+  "lat": 30.0399797,
+  "lon": 31.3431686,
+  "tags": {
+    "addr:city": "مدينة نصر",
+    "addr:housenumber": "9",
+    "addr:street": "شارع عمر إبن الخطاب",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Garnet Coffee",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6478575585,
+  "lat": 30.0915479,
+  "lon": 31.3237277,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 6516004088,
+  "lat": 30.0969395,
+  "lon": 31.3145489,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "ar:ستاربكس",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:de": "Starbucks",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "operator": "ستاربكس",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6534018911,
+  "lat": 30.0891649,
+  "lon": 31.3213952,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Second Cup",
+    "brand:wikidata": "Q862180",
+    "cuisine": "coffee_shop",
+    "name": "Second Cup",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6581826591,
+  "lat": 30.1002143,
+  "lon": 31.3333290,
+  "tags": {
+    "addr:country": "EG",
+    "addr:district": "مصر الجديده",
+    "addr:district:en": "Heliopolis",
+    "addr:housenumber": "2",
+    "addr:postcode": "11757",
+    "addr:province": "القاهرة",
+    "addr:province:en": "Cairo",
+    "addr:street": "شارع عمر بن الخطاب",
+    "addr:street:en": "Omar Ibn Al Khatab Street",
+    "addr:subdistrict": "البستان",
+    "addr:subdistrict:en": "El Bostan",
+    "amenity": "cafe",
+    "name": "Il Pennello Ceramic Café",
+    "opening_hours": "Mo-Su 09:00-12:00",
+    "phone": "+20222417603",
+    "website": "https://il-pennello.business.site/#summary"
+  }
+},
+{
+  "type": "node",
+  "id": 6588451957,
+  "lat": 29.9605414,
+  "lon": 31.2732543,
+  "tags": {
+    "addr:country": "EG",
+    "addr:district": "المعادى",
+    "addr:district:en": "El Maadi",
+    "addr:housenumber": "11",
+    "addr:postcode": "11728",
+    "addr:province": "القاهرة",
+    "addr:province:en": "Cairo",
+    "addr:street": "شارع 214",
+    "addr:street:en": "Street 214",
+    "addr:subdistrict": "السرايات الشرقيه",
+    "addr:subdistrict:en": "East Al Sarayat",
+    "amenity": "cafe",
+    "cuisine": "healthy",
+    "diet:vegan": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Lyfe"
+  }
+},
+{
+  "type": "node",
+  "id": 6589269812,
+  "lat": 29.9703838,
+  "lon": 31.2765431,
+  "tags": {
+    "addr:district:en": "Al Basatine",
+    "addr:province:en": "Cairo",
+    "addr:street:en": "Omar Ibn Al Khatab Street",
+    "addr:subdistrict:en": "El Maadi El Gadida",
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 6629632000,
+  "lat": 30.0688331,
+  "lon": 31.2448954,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Arabiata"
+  }
+},
+{
+  "type": "node",
+  "id": 6771435270,
+  "lat": 30.0548471,
+  "lon": 31.2025013,
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:country": "EG",
+    "addr:district": "العجوزه",
+    "addr:district:en": "Al Agouza",
+    "addr:housenumber": "13",
+    "addr:postcode": "12655",
+    "addr:province": "الجيزه",
+    "addr:province:en": "Giza",
+    "addr:street": "شارع جامعه الدول العربيه",
+    "addr:street:en": "Gamaa Al Doul Al Arabiya Street",
+    "addr:subdistrict": "المهندسين",
+    "addr:subdistrict:en": "Al Mohandessin",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "check_date": "2025-11-17",
+    "cuisine": "coffee_shop;sandwich;pizza;kebab",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Location Cafe",
+    "name:ar": "لوكيشن كافيه",
+    "opening_hours": "24/7",
+    "phone": "01211187777",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6782862827,
+  "lat": 30.0407592,
+  "lon": 31.2089154,
+  "tags": {
+    "addr:city": "الدقي",
+    "addr:country": "EG",
+    "addr:district": "الدقى",
+    "addr:district:en": "Al Doqi",
+    "addr:housenumber": "2",
+    "addr:postcode": "12615",
+    "addr:province": "الجيزه",
+    "addr:province:en": "Giza",
+    "addr:street": "شارع محمد صالح",
+    "addr:street:en": "Mohamed Saleh Street",
+    "addr:subdistrict": "مدينه الاوقاف",
+    "addr:subdistrict:en": "Al Awqaf City",
+    "amenity": "cafe",
+    "cuisine": "جميع_انواع_الجاتوه_السريع_والترت",
+    "description": "المكان هنا اسمو المصطبه عباره عن مكان في جميع المشروبات الدافئه والبارده وكمان في انواع كتير حلويات علي شكل التشيذكيك والهاني كيك والخ الخ",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "المصطبه",
+    "opening_hours": "24/7",
+    "phone": "01144755294",
+    "website": "Bedoesam950@gmail.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6806456994,
+  "lat": 30.0179428,
+  "lon": 31.1772432,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ركن اليمن",
+    "name:ar": "ركن اليمن"
+  }
+},
+{
+  "type": "node",
+  "id": 6807931386,
+  "lat": 30.0472870,
+  "lon": 31.2622867,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ElFishawy",
+    "name:en": "El-Fishawy Café"
+  }
+},
+{
+  "type": "node",
+  "id": 6855588085,
+  "lat": 30.0602454,
+  "lon": 31.2228013,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Sufi Bookstore"
+  }
+},
+{
+  "type": "node",
+  "id": 6895627035,
+  "lat": 29.9889329,
+  "lon": 31.4413738,
+  "tags": {
+    "amenity": "cafe",
+    "name": "GIU Cafeteria"
+  }
+},
+{
+  "type": "node",
+  "id": 6955851271,
+  "lat": 30.0504655,
+  "lon": 31.2333999,
+  "tags": {
+    "addr:city": "القاهرة",
+    "amenity": "cafe",
+    "name": "chairs on walking way",
+    "name:ar": "chairs on walk way, never sit",
+    "name:en": "chairs on walk way, never sit",
+    "name:tr": "kaldırımdaki sandalyeler"
+  }
+},
+{
+  "type": "node",
+  "id": 6982895885,
+  "lat": 30.0935964,
+  "lon": 31.2195037,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوة النمر",
+    "name:ar": "قهوة النمر",
+    "name:en": "Alnemr Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 7003057287,
+  "lat": 30.0473695,
+  "lon": 31.2624901,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "El Fishawi"
+  }
+},
+{
+  "type": "node",
+  "id": 7036408294,
+  "lat": 30.0743178,
+  "lon": 31.3444396,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "كاريبو كوفي",
+    "brand:ar": "كاريبو كوفي",
+    "brand:en": "Caribou Coffee",
+    "brand:wikidata": "Q5039494",
+    "brand:wikipedia": "en:Caribou Coffee",
+    "cuisine": "coffee_shop",
+    "name": "كاريبو كوفي",
+    "name:ar": "كاريبو كوفي",
+    "name:en": "Caribou Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7128387486,
+  "lat": 30.0463055,
+  "lon": 31.2351350,
+  "tags": {
+    "addr:city:en": "Cairo",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name:en": "La Poire",
+    "website": "http://www.lapoire.me/"
+  }
+},
+{
+  "type": "node",
+  "id": 7134740685,
+  "lat": 30.0432745,
+  "lon": 31.2386713,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name:en": "Oldish"
+  }
+},
+{
+  "type": "node",
+  "id": 7154381586,
+  "lat": 30.0432180,
+  "lon": 31.2387010,
+  "tags": {
+    "addr:city": "القاهرة",
+    "amenity": "cafe",
+    "name:en": "Oldish",
+    "name:fr": "Oldish"
+  }
+},
+{
+  "type": "node",
+  "id": 7159515386,
+  "lat": 30.0585805,
+  "lon": 31.2244414,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Ahwak",
+    "name:fr": "Ahwak"
+  }
+},
+{
+  "type": "node",
+  "id": 7217192086,
+  "lat": 30.0611248,
+  "lon": 31.2226350,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/antiquekhana/",
+    "name:en": "Antique Khana",
+    "name:fr": "Antique Khana",
+    "opening_hours": "Mo-Su 10:00-24:00",
+    "outdoor_seating": "no",
+    "phone": "+201222168458, +20 12 80884444"
+  }
+},
+{
+  "type": "node",
+  "id": 7228334556,
+  "lat": 30.0573132,
+  "lon": 31.2241320,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Garden Promenade Café"
+  }
+},
+{
+  "type": "node",
+  "id": 7639846206,
+  "lat": 29.9786889,
+  "lon": 31.3160475,
+  "tags": {
+    "addr:city": "cairo",
+    "addr:street": "شارع الاسراء",
+    "amenity": "cafe",
+    "internet_access": "yes",
+    "name": "ONE café",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7639846214,
+  "lat": 29.9819682,
+  "lon": 31.3158630,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7844190037,
+  "lat": 30.1487892,
+  "lon": 31.2537987,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوة الحوايطة",
+    "name:ar": "قهوة الحوايطة"
+  }
+},
+{
+  "type": "node",
+  "id": 8243257956,
+  "lat": 30.0680815,
+  "lon": 31.3415642,
+  "tags": {
+    "addr:city": "cairo",
+    "addr:housenumber": "3",
+    "addr:street": "شارع حافظ رمضان",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "tigo coffee shop",
+    "outdoor_seating": "yes",
+    "phone": "0128088244"
+  }
+},
+{
+  "type": "node",
+  "id": 8253209481,
+  "lat": 29.9567075,
+  "lon": 31.1032121,
+  "tags": {
+    "addr:housenumber": "50",
+    "addr:street": "2",
+    "amenity": "cafe",
+    "name": "Sun City"
+  }
+},
+{
+  "type": "node",
+  "id": 8272372011,
+  "lat": 29.9566869,
+  "lon": 31.1033273,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Sun city"
+  }
+},
+{
+  "type": "node",
+  "id": 8409145794,
+  "lat": 30.0541104,
+  "lon": 31.2625717,
+  "tags": {
+    "addr:country": "EG",
+    "addr:district": "الجماليه",
+    "addr:district:en": "Al Gamalia",
+    "addr:housenumber": "136",
+    "addr:postcode": "11681",
+    "addr:province": "القاهرة",
+    "addr:province:en": "Cairo",
+    "addr:street": "شارع المعز لدين الله الفاطمي",
+    "addr:street:en": "Al Moez Ldin Allah Al Fatemi Street",
+    "addr:subdistrict": "باب الفتوح",
+    "addr:subdistrict:en": "Bab El Fetouh",
+    "amenity": "cafe",
+    "name": "مطحن بن تبارك",
+    "name:en": "Tabarak Coffee Maker",
+    "opening_hours": "Su-Sa 12:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 8435579420,
+  "lat": 29.9697572,
+  "lon": 31.2754439,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/LAVilla-kartoshka-Maadi-698047693672199/",
+    "name": "LAVilla",
+    "name:en": "LAVilla"
+  }
+},
+{
+  "type": "node",
+  "id": 8440208218,
+  "lat": 30.0356782,
+  "lon": 31.2329075,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "شارع عائشه التيموريه",
+    "amenity": "cafe",
+    "cuisine": "arab;breakfast;international;pasta;sandwich;tea",
+    "internet_access": "wlan",
+    "name": "الڤيلا",
+    "name:en": "El villa"
+  }
+},
+{
+  "type": "node",
+  "id": 8532541272,
+  "lat": 29.9717427,
+  "lon": 31.1045286,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيه مسطبه",
+    "name:ar": "كافيه مسطبه",
+    "name:en": "Mastabah Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 8612016753,
+  "lat": 30.0345103,
+  "lon": 31.2351575,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-06-25",
+    "cuisine": "regional",
+    "internet_access": "no",
+    "name": "قهوة علاء الدين",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8612016755,
+  "lat": 30.0338764,
+  "lon": 31.2332714,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "regional",
+    "internet_access": "no",
+    "name": "قهوة الفلاح",
+    "name:ar": "قهوة الفلاح",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8922985184,
+  "lat": 29.9750901,
+  "lon": 31.2764776,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/Lava-cafe-2-103446831279077/",
+    "name": "لاڤا كافيه",
+    "name:ar": "لاڤا كافيه",
+    "name:en": "Lava Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 8986759955,
+  "lat": 30.0908347,
+  "lon": 31.3229428,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Session Cafe",
+    "name:en": "Session Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 9122671856,
+  "lat": 30.0332897,
+  "lon": 31.1865359,
+  "tags": {
+    "addr:housenumber": "29",
+    "addr:street": "شارع النصر",
+    "amenity": "cafe",
+    "cafe": "hookah_lounge",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9130390323,
+  "lat": 30.0970602,
+  "lon": 31.3387065,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Down The Bridge Cafe",
+    "name:en": "Down The Bridge Cafe",
+    "phone": "+20 100 172 9850",
+    "website": "https://down-the-bridge-cafe.business.site"
+  }
+},
+{
+  "type": "node",
+  "id": 9222501751,
+  "lat": 30.0157711,
+  "lon": 31.3008723,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/كافيه-ليالي-المقطم-105812797494449/",
+    "contact:instagram": "https://www.instagram.com/layalycafe21/",
+    "name": "ليالي كافيه",
+    "name:ar": "ليالي كافيه",
+    "name:en": "Layali Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 9236195337,
+  "lat": 30.0150124,
+  "lon": 31.3996509,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/karakboyeg",
+    "contact:instagram": "https://www.instagram.com/karakboyeg/",
+    "contact:twitter": "https://www.twitter.com/karakboyeg",
+    "email": "info@karakboy.com",
+    "name": "كرك بوي",
+    "name:ar": "كرك بوي",
+    "name:en": "Karak Boy",
+    "phone": "+20 106 9524257",
+    "website": "https://www.karakboy.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9260342418,
+  "lat": 30.0326314,
+  "lon": 31.2369052,
+  "tags": {
+    "amenity": "cafe",
+    "name:ru": "Кальянная"
+  }
+},
+{
+  "type": "node",
+  "id": 9281765570,
+  "lat": 30.0715730,
+  "lon": 31.2279457,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "opening_hours": "Mo-Sa 07:00-00:00; Su 07:00-24:00",
+    "phone": "+20 122 080 0307",
+    "takeaway": "yes",
+    "website": "https://www.starbucks.eg/"
+  }
+},
+{
+  "type": "node",
+  "id": 9283628338,
+  "lat": 29.9867384,
+  "lon": 31.4403891,
+  "tags": {
+    "amenity": "cafe",
+    "name": "L'Aroma",
+    "operator": "الجامعة الألمانية بالقاهرة"
+  }
+},
+{
+  "type": "node",
+  "id": 9283628341,
+  "lat": 29.9871022,
+  "lon": 31.4403914,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Pronto",
+    "operator": "الجامعة الألمانية بالقاهرة"
+  }
+},
+{
+  "type": "node",
+  "id": 9312931774,
+  "lat": 30.0483176,
+  "lon": 31.2372087,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-09-11",
+    "drink:coffee": "served",
+    "drive_through": "no",
+    "food": "no",
+    "name": "Jarat Al-Qamar Café",
+    "outdoor_seating": "yes",
+    "smoking": "yes",
+    "url": "https://passageways.clustermappinginitiative.org/en/passageways/jarat-al-qamar-caf%C3%A9-3129"
+  }
+},
+{
+  "type": "node",
+  "id": 9362863517,
+  "lat": 30.0603974,
+  "lon": 31.2210235,
+  "tags": {
+    "amenity": "cafe",
+    "name:fr": "Tabali cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 9382613117,
+  "lat": 29.9749596,
+  "lon": 31.1490622,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوة الصعيضة",
+    "name:en": "Saaida Café",
+    "name:fr": "Saaida Café"
+  }
+},
+{
+  "type": "node",
+  "id": 9521257252,
+  "lat": 29.9928552,
+  "lon": 31.1484316,
+  "tags": {
+    "amenity": "cafe",
+    "name": "سلطنة كوفى شوب"
+  }
+},
+{
+  "type": "node",
+  "id": 9523773771,
+  "lat": 29.9918532,
+  "lon": 31.1490402,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيتريا الخليج"
+  }
+},
+{
+  "type": "node",
+  "id": 9523782009,
+  "lat": 29.9934120,
+  "lon": 31.1480863,
+  "tags": {
+    "amenity": "cafe",
+    "name": "سيتى كافيه"
+  }
+},
+{
+  "type": "node",
+  "id": 9523794848,
+  "lat": 29.9912630,
+  "lon": 31.1493286,
+  "tags": {
+    "amenity": "cafe",
+    "name": "حكاية زمان"
+  }
+},
+{
+  "type": "node",
+  "id": 9523804786,
+  "lat": 29.9920217,
+  "lon": 31.1489534,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كوفي شوب زيزينيا"
+  }
+},
+{
+  "type": "node",
+  "id": 9523809229,
+  "lat": 29.9933683,
+  "lon": 31.1481314,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيتريا النهار"
+  }
+},
+{
+  "type": "node",
+  "id": 9552336617,
+  "lat": 30.0626280,
+  "lon": 31.3362634,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوة الكوخ"
+  }
+},
+{
+  "type": "node",
+  "id": 9584888070,
+  "lat": 30.0389621,
+  "lon": 31.2104954,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيه باب العرب"
+  }
+},
+{
+  "type": "node",
+  "id": 9584890422,
+  "lat": 30.0391877,
+  "lon": 31.2105706,
+  "tags": {
+    "amenity": "cafe",
+    "name": "القهوة"
+  }
+},
+{
+  "type": "node",
+  "id": 9641413193,
+  "lat": 30.0513860,
+  "lon": 31.2151548,
+  "tags": {
+    "amenity": "cafe",
+    "name": "سهرانه",
+    "name:ar": "سهرانه",
+    "name:en": "Sehrana"
+  }
+},
+{
+  "type": "node",
+  "id": 9674976971,
+  "lat": 30.0629853,
+  "lon": 31.2268171,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Le Delice Cafe",
+    "name:en": "Le Delice Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 9677168950,
+  "lat": 29.9819357,
+  "lon": 31.3113065,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "La Fourchette Restaurant & Café"
+  }
+},
+{
+  "type": "node",
+  "id": 9739594048,
+  "lat": 30.0479430,
+  "lon": 31.2329563,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Onaty",
+    "name:en": "Onaty"
+  }
+},
+{
+  "type": "node",
+  "id": 9760801400,
+  "lat": 30.0915842,
+  "lon": 31.3114911,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Strella Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 9824754947,
+  "lat": 30.1115997,
+  "lon": 31.4022644,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Aero Cafe",
+    "takeaway": "only"
+  }
+},
+{
+  "type": "node",
+  "id": 9824769296,
+  "lat": 30.1120809,
+  "lon": 31.4006864,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Costa"
+  }
+},
+{
+  "type": "node",
+  "id": 9824781845,
+  "lat": 30.1116321,
+  "lon": 31.4021166,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Starbucks"
+  }
+},
+{
+  "type": "node",
+  "id": 9922901179,
+  "lat": 30.0867294,
+  "lon": 31.2451517,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيه المحروسه",
+    "name:ar": "كافيه المحروسه",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10255489693,
+  "lat": 29.9611669,
+  "lon": 31.4559547,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10266039836,
+  "lat": 30.0152346,
+  "lon": 31.1858179,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوه التركي"
+  }
+},
+{
+  "type": "node",
+  "id": 10563863056,
+  "lat": 29.9870284,
+  "lon": 31.1410129,
+  "tags": {
+    "addr:city": "Haram",
+    "addr:housenumber": "1",
+    "addr:postcode": "12512",
+    "addr:street": "شارع الهرم",
+    "amenity": "cafe",
+    "check_date": "2024-10-30",
+    "name": "Hala Cafe",
+    "website": "https://www.facebook.com/Exceptionpatissier"
+  }
+},
+{
+  "type": "node",
+  "id": 10568227867,
+  "lat": 30.0870511,
+  "lon": 31.2756185,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/people/Ballon-DOR-ps-cafe/100075793435417/",
+    "name": "بالون دور",
+    "name:ar": "بالون دور",
+    "name:en": "Ballon Dor"
+  }
+},
+{
+  "type": "node",
+  "id": 10568476506,
+  "lat": 30.1399094,
+  "lon": 31.3553899,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 10676144206,
+  "lat": 30.0346697,
+  "lon": 31.2378043,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 10702080905,
+  "lat": 29.9445969,
+  "lon": 31.2991095,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 10730418306,
+  "lat": 30.0507978,
+  "lon": 31.2460017,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Coffee joints"
+  }
+},
+{
+  "type": "node",
+  "id": 10769235030,
+  "lat": 30.1635249,
+  "lon": 31.4082109,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كوتش",
+    "name:ar": "كوتش",
+    "name:en": "Coach"
+  }
+},
+{
+  "type": "node",
+  "id": 10824504005,
+  "lat": 29.9581724,
+  "lon": 31.2693402,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 10826724607,
+  "lat": 30.0085326,
+  "lon": 31.2310404,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 10867264305,
+  "lat": 30.0528920,
+  "lon": 31.2447709,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Sudanese Tea House"
+  }
+},
+{
+  "type": "node",
+  "id": 10926808469,
+  "lat": 30.0075463,
+  "lon": 31.1994677,
+  "tags": {
+    "amenity": "cafe",
+    "name": "راديو كافيه",
+    "name:ar": "راديو كافيه",
+    "name:en": "Radio Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 11168835105,
+  "lat": 30.0426105,
+  "lon": 31.2320335,
+  "tags": {
+    "addr:floor": "1",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "bar": "yes",
+    "check_date": "2023-09-06",
+    "drive_through": "no",
+    "internet_access": "no",
+    "level": "0",
+    "name": "Cafe Carniche",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "smoking": "separated",
+    "source": "survey",
+    "toilets": "no",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11215391486,
+  "lat": 29.9626110,
+  "lon": 31.2772007,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Dark Solutions",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11215391487,
+  "lat": 29.9626201,
+  "lon": 31.2772821,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "brand:ar": "كاريبو كوفي",
+    "brand:en": "Caribou Coffee",
+    "brand:wikidata": "Q5039494",
+    "check_date": "2025-11-23",
+    "cuisine": "coffee_shop",
+    "name": "Coffee Lab",
+    "name:ar": "كوفي لاب",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "smoking": "separated",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11224507006,
+  "lat": 29.9627150,
+  "lon": 31.2785413,
+  "tags": {
+    "amenity": "cafe",
+    "name": "No. 233"
+  }
+},
+{
+  "type": "node",
+  "id": 11225519828,
+  "lat": 29.9585610,
+  "lon": 31.2690075,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:housenumber": "13",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 18",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/people/KOUPA/100090994422977/",
+    "name": "Koupa",
+    "outdoor_seating": "yes",
+    "phone": "+20 10 01553333"
+  }
+},
+{
+  "type": "node",
+  "id": 11225519829,
+  "lat": 29.9585316,
+  "lon": 31.2690115,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 18",
+    "amenity": "cafe",
+    "brand": "كاريبو كوفي",
+    "brand:ar": "كاريبو كوفي",
+    "brand:en": "Caribou Coffee",
+    "brand:wikidata": "Q5039494",
+    "cuisine": "coffee_shop",
+    "name": "كاريبو كوفي",
+    "name:ar": "كاريبو كوفي",
+    "name:en": "Caribou Coffee",
+    "opening_hours": "Mo-Su 08:00-24:00",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11234124638,
+  "lat": 30.0113263,
+  "lon": 31.3035428,
+  "tags": {
+    "addr:housenumber": "9027",
+    "addr:postcode": "9027",
+    "addr:street": "شارع معهد الجزيرة",
+    "amenity": "cafe",
+    "cuisine": "arab;burger;cake;chicken;coffee_shop;friture;hot_dog",
+    "email": "ahmedpakr344@gmail.com",
+    "internet_access": "wlan",
+    "name": "كافيه دوبامين",
+    "name:en": "Dopamine",
+    "opening_hours": "Th-Tu 08:00-02:00",
+    "phone": "01006020008",
+    "website": "https://www.facebook.com/profile.php?id=100064069927493"
+  }
+},
+{
+  "type": "node",
+  "id": 11308712118,
+  "lat": 30.0927958,
+  "lon": 31.3484681,
+  "tags": {
+    "amenity": "cafe",
+    "board_games": "yes",
+    "cafe": "board_game",
+    "contact:instagram": "monoplaycafe",
+    "name": "Monoplay"
+  }
+},
+{
+  "type": "node",
+  "id": 11339456870,
+  "lat": 29.9819713,
+  "lon": 31.1434590,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "king coffee shahwan"
+  }
+},
+{
+  "type": "node",
+  "id": 11339459970,
+  "lat": 29.9793705,
+  "lon": 31.1435890,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "st food"
+  }
+},
+{
+  "type": "node",
+  "id": 11339461970,
+  "lat": 29.9796997,
+  "lon": 31.1451328,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "ice coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 11339467469,
+  "lat": 29.9779106,
+  "lon": 31.1447239,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Abo Zeyd"
+  }
+},
+{
+  "type": "node",
+  "id": 11339467470,
+  "lat": 29.9868582,
+  "lon": 31.1498178,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Balad El Gharieb",
+    "name:ru": "Морепродукты"
+  }
+},
+{
+  "type": "node",
+  "id": 11379940983,
+  "lat": 30.0796763,
+  "lon": 31.3441312,
+  "tags": {
+    "amenity": "cafe",
+    "name": "الجيزاوي",
+    "name:ar": "الجيزاوي",
+    "name:en": "Al Gizawy"
+  }
+},
+{
+  "type": "node",
+  "id": 11397629470,
+  "lat": 30.0550569,
+  "lon": 31.3348779,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Hooka"
+  }
+},
+{
+  "type": "node",
+  "id": 11438319549,
+  "lat": 29.9576664,
+  "lon": 31.2743298,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "check_date": "2025-04-25",
+    "cuisine": "coffee_shop",
+    "level": "-1",
+    "name": "Miette French Bakery",
+    "outdoor_seating": "yes",
+    "phone": "01115305552",
+    "source": "survey",
+    "website": "http://mietteegypt.com",
+    "website:menu": "https://i.ibb.co/7X6C00t/Untitled-1.png"
+  }
+},
+{
+  "type": "node",
+  "id": 11438377547,
+  "lat": 29.9609069,
+  "lon": 31.2769362,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2023-12-21",
+    "name": "Swirkies"
+  }
+},
+{
+  "type": "node",
+  "id": 11459417169,
+  "lat": 29.9526149,
+  "lon": 31.2641306,
+  "tags": {
+    "air_conditioning": "no",
+    "amenity": "cafe",
+    "bar": "no",
+    "capacity": "40",
+    "check_date": "2023-12-27",
+    "cuisine": "cafe",
+    "drive_through": "no",
+    "highchair": "no",
+    "name": "Kiro Coffee Shop",
+    "name:ar": "كوفي شوب كيرو",
+    "outdoor_seating": "yes",
+    "smoking": "outside",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 11459417180,
+  "lat": 29.9522749,
+  "lon": 31.2644391,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2023-12-27",
+    "cuisine": "coffee_shop",
+    "name": "Gharbawy Coffee",
+    "name:ar": "بن الغرباوي"
+  }
+},
+{
+  "type": "node",
+  "id": 11482480493,
+  "lat": 29.9622807,
+  "lon": 31.2763116,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-01-03",
+    "name": "Cava Cafe & Restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 11494546511,
+  "lat": 30.0611300,
+  "lon": 31.2229376,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Social Specialty Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 11524728711,
+  "lat": 29.9610565,
+  "lon": 31.2770186,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-01-17",
+    "name": "Mr Moussa"
+  }
+},
+{
+  "type": "node",
+  "id": 11524773210,
+  "lat": 29.9625263,
+  "lon": 31.2768139,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "check_date": "2024-01-17",
+    "cuisine": "cafe",
+    "name": "TBS",
+    "name:ar": "تي بي أس",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11524788543,
+  "lat": 29.9603284,
+  "lon": 31.2765283,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-12-01",
+    "check_date:opening_hours": "2025-12-01",
+    "name": "Self",
+    "name:ar": "سيلف",
+    "opening_hours": "Sa-We 09:00-22:00; Th,Fr 09:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11524796753,
+  "lat": 29.9552744,
+  "lon": 31.2617463,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-01-17",
+    "name": "Braavos"
+  }
+},
+{
+  "type": "node",
+  "id": 11534723711,
+  "lat": 30.0192509,
+  "lon": 31.5004419,
+  "tags": {
+    "amenity": "cafe",
+    "name": "سيلانترو",
+    "name:ar": "سيلانترو",
+    "name:en": "Cilantro",
+    "name:fr": "Cilantro"
+  }
+},
+{
+  "type": "node",
+  "id": 11612987032,
+  "lat": 30.1129444,
+  "lon": 31.2883755,
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:housenumber": "39",
+    "addr:street": "شارع الكابلات الإميرية الشمالية",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/p/Lahtet-Eshta-%D9%84%D9%87%D8%B7%D8%A9-%D9%82%D8%B4%D8%B7%D8%A9-100090099249381/",
+    "cuisine": "حلواني",
+    "name": "لهطة قشطة الكابلات",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 11619443204,
+  "lat": 29.9909641,
+  "lon": 31.1311590,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Gem Plaza Café"
+  }
+},
+{
+  "type": "node",
+  "id": 11845336770,
+  "lat": 29.9901884,
+  "lon": 31.1569291,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "breakfast;oriental;tea",
+    "internet_access": "wlan",
+    "name": "كافية البرنسيسة",
+    "opening_hours": "Mo-Su 12:00-12:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11903296189,
+  "lat": 30.0409967,
+  "lon": 31.2419870,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوة كامل"
+  }
+},
+{
+  "type": "node",
+  "id": 11955856269,
+  "lat": 29.9910475,
+  "lon": 31.1647675,
+  "tags": {
+    "amenity": "cafe",
+    "name": "حسن افندي",
+    "name:en": "hasan afandi"
+  }
+},
+{
+  "type": "node",
+  "id": 11958442569,
+  "lat": 29.9915592,
+  "lon": 31.1617552,
+  "tags": {
+    "addr:street": "شارع عز الدين عمر",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "قصر العرب",
+    "name:en": "qaser alarab"
+  }
+},
+{
+  "type": "node",
+  "id": 11962649660,
+  "lat": 29.9754028,
+  "lon": 31.1405385,
+  "tags": {
+    "amenity": "cafe",
+    "email": "caf.sphinx@tradefy.com",
+    "facebook": "https://www.facebook.com/cafcafe.eg",
+    "instagram": "https://www.instagram.com/cafcafe.eg",
+    "name": "Caf",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "phone": "+20 12 26026106",
+    "tiktok": "https://www.tiktok.com/@cafcafe.eg",
+    "website": "https://www.cafcafeeg.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11962649661,
+  "lat": 29.9524572,
+  "lon": 31.4476831,
+  "tags": {
+    "amenity": "cafe",
+    "contact:email": "caf.mindhaus@tradefy.com",
+    "contact:facebook": "https://www.facebook.com/cafcafe.eg",
+    "contact:instagram": "https://www.instagram.com/cafcafe.eg",
+    "contact:phone": "+20 12 24470402",
+    "contact:website": "https://www.cafcafeeg.com",
+    "name": "Caf",
+    "opening_hours": "Mo-Su 08:00-01:00",
+    "tiktok": "https://www.tiktok.com/@cafcafe.eg"
+  }
+},
+{
+  "type": "node",
+  "id": 11962649662,
+  "lat": 30.0089648,
+  "lon": 31.4033246,
+  "tags": {
+    "amenity": "cafe",
+    "contact:email": "caf.5a@tradefy.com",
+    "contact:facebook": "https://www.facebook.com/cafcafe.eg",
+    "contact:instagram": "https://www.instagram.com/cafcafe.eg",
+    "contact:phone": "+20 12 76012846",
+    "contact:website": "https://www.cafcafeeg.com",
+    "name": "Caf",
+    "opening_hours": "Mo-We,Sa-Su 07:00-01:00; Th-Fr 07:00-02:00",
+    "tiktok": "https://www.tiktok.com/@cafcafe.eg"
+  }
+},
+{
+  "type": "node",
+  "id": 11962649664,
+  "lat": 30.0468725,
+  "lon": 31.2340665,
+  "tags": {
+    "amenity": "cafe",
+    "contact:email": "caf.museum@tradefy.com",
+    "contact:facebook": "https://www.facebook.com/cafcafe.eg",
+    "contact:instagram": "https://www.instagram.com/cafcafe.eg",
+    "contact:phone": "+20 12 26026250",
+    "contact:website": "https://www.cafcafeeg.com",
+    "name": "Caf",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "tiktok": "https://www.tiktok.com/@cafcafe.eg"
+  }
+},
+{
+  "type": "node",
+  "id": 11994576949,
+  "lat": 30.0381618,
+  "lon": 31.2359355,
+  "tags": {
+    "amenity": "cafe",
+    "name": "E-raiak"
+  }
+},
+{
+  "type": "node",
+  "id": 12123069315,
+  "lat": 30.0594687,
+  "lon": 31.2519260,
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:housenumber": "6",
+    "addr:street": "شارع البرج",
+    "amenity": "cafe",
+    "name": "مقهي جمال",
+    "phone": "01115948987",
+    "phone:UA": "01027900640"
+  }
+},
+{
+  "type": "node",
+  "id": 12169116330,
+  "lat": 30.0439256,
+  "lon": 31.2399847,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-09-10",
+    "cuisine": "coffee_shop",
+    "diet:halal": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "drink:coffee": "served",
+    "food": "no",
+    "name": "Expresso",
+    "opening_hours": "24/7",
+    "outdoor_seating": "yes",
+    "self_service": "no",
+    "shisha": "served",
+    "smoking": "yes",
+    "television": "yes",
+    "toilets": "yes",
+    "toilets:female": "no",
+    "toilets:handwashing": "yes",
+    "toilets:male": "yes",
+    "toilets:position": "urinal",
+    "toilets:unisex": "no",
+    "toilets:wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12169116333,
+  "lat": 30.0488246,
+  "lon": 31.2367264,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop"
+  }
+},
+{
+  "type": "node",
+  "id": 12246167894,
+  "lat": 29.9660144,
+  "lon": 31.2763411,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 12246167895,
+  "lat": 29.9630848,
+  "lon": 31.2782209,
+  "tags": {
+    "addr:housenumber": "b61",
+    "addr:street": "شارع 233",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Zen Specialty Coffee",
+    "opening_hours": "07:00-01:00",
+    "outdoor_seating": "yes",
+    "phone": "01202968707"
+  }
+},
+{
+  "type": "node",
+  "id": 12272840819,
+  "lat": 30.0580923,
+  "lon": 31.2239410,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-21",
+    "name": "Granita Coffee",
+    "opening_hours": "Mo-Fr 07:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 12273088620,
+  "lat": 30.0670618,
+  "lon": 31.2222131,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-21",
+    "name": "Coffee Bar"
+  }
+},
+{
+  "type": "node",
+  "id": 12273151810,
+  "lat": 30.0599008,
+  "lon": 31.2231214,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-21",
+    "name": "Coffee & Tea"
+  }
+},
+{
+  "type": "node",
+  "id": 12287913337,
+  "lat": 30.0533058,
+  "lon": 31.2186946,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-25",
+    "name": "Orangette"
+  }
+},
+{
+  "type": "node",
+  "id": 12296520827,
+  "lat": 30.0063068,
+  "lon": 31.2304847,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-29"
+  }
+},
+{
+  "type": "node",
+  "id": 12299672076,
+  "lat": 29.9871719,
+  "lon": 31.1414356,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-10-30",
+    "name": "Exception"
+  }
+},
+{
+  "type": "node",
+  "id": 12301575401,
+  "lat": 30.0403624,
+  "lon": 31.2351662,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Hegazy Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 12301787202,
+  "lat": 30.0565291,
+  "lon": 31.2226921,
+  "tags": {
+    "addr:street": "شارع الشيخ المرصفي",
+    "amenity": "cafe",
+    "contact:instagram": "holm_cafe",
+    "cuisine": "cake;coffee_shop",
+    "email": "hello@holmcafe.com",
+    "internet_access": "wlan",
+    "name": "Holm Café",
+    "opening_hours": "Mo-Su 08:00-22:30",
+    "website": "https://www.holmcafe.com/",
+    "website:menu": "https://www.holmcafe.com/pdf-menu"
+  }
+},
+{
+  "type": "node",
+  "id": 12304384901,
+  "lat": 30.0445090,
+  "lon": 31.2368454,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Juice"
+  }
+},
+{
+  "type": "node",
+  "id": 12307136002,
+  "lat": 30.0510598,
+  "lon": 31.2443646,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Caribou"
+  }
+},
+{
+  "type": "node",
+  "id": 12309397301,
+  "lat": 30.0525572,
+  "lon": 31.2409947,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Beetle"
+  }
+},
+{
+  "type": "node",
+  "id": 12309591801,
+  "lat": 30.0511386,
+  "lon": 31.2408036,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Up Town"
+  }
+},
+{
+  "type": "node",
+  "id": 12312169201,
+  "lat": 30.0348831,
+  "lon": 31.2369312,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Bennu"
+  }
+},
+{
+  "type": "node",
+  "id": 12364809002,
+  "lat": 30.0292558,
+  "lon": 31.4826241,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/cafcafe.eg",
+    "contact:instagram": "https://www.instagram.com/cafcafe.eg",
+    "contact:phone": "+20 12 26025929",
+    "contact:website": "https://www.cafcafeeg.com",
+    "name": "Caf",
+    "opening_hours": "Mo-We,Sa-Su 07:00-01:00; Th-Fr 07:00-02:00",
+    "tiktok": "https://www.tiktok.com/@cafcafe.eg"
+  }
+},
+{
+  "type": "node",
+  "id": 12450888302,
+  "lat": 30.0517881,
+  "lon": 31.2617901,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Abo El Arbi Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 12450897101,
+  "lat": 30.0520599,
+  "lon": 31.2619244,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Al Suhaimy Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 12615835836,
+  "lat": 29.9929763,
+  "lon": 31.1475960,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيتريا الحلمية"
+  }
+},
+{
+  "type": "node",
+  "id": 12707193759,
+  "lat": 30.0060997,
+  "lon": 31.2303548,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 12707193768,
+  "lat": 30.0064387,
+  "lon": 31.2316025,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 12723679045,
+  "lat": 30.0666369,
+  "lon": 31.2198619,
+  "tags": {
+    "amenity": "cafe",
+    "name": "COVA."
+  }
+},
+{
+  "type": "node",
+  "id": 12990797056,
+  "lat": 30.0126741,
+  "lon": 31.1539447,
+  "tags": {
+    "addr:city": "فيصل الصفا والمروة",
+    "addr:housenumber": "15",
+    "addr:street": "شارع متفرع من شارع حمد ياسين",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "no",
+    "name": "كافية الحوهرة",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 13116298901,
+  "lat": 30.0748838,
+  "lon": 31.4462712,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Dancing Goat Coffee - Shades",
+    "opening_hours": "Mo-Su 07:00-00:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13116541649,
+  "lat": 29.9620284,
+  "lon": 31.2781464,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "diet:vegetarian": "yes",
+    "name": "إيدن",
+    "name:ar": "إيدن",
+    "name:en": "Eden Bakery and Coffeehouse",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "smoking": "outside",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 13116548838,
+  "lat": 29.9613545,
+  "lon": 31.2781595,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:housenumber": "25`",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 233",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/Breadfast",
+    "contact:instagram": "https://www.instagram.com/breadfast/",
+    "cuisine": "coffee_shop;sandwich;breakfast",
+    "name": "بريدفاست",
+    "name:ar": "بريدفاست",
+    "name:en": "Breadfast Coffee",
+    "opening_hours": "Mo-Su 07:00-24:00",
+    "outdoor_seating": "no",
+    "website": "https://www.breadfast.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13152602764,
+  "lat": 29.9532062,
+  "lon": 31.2638108,
+  "tags": {
+    "amenity": "cafe",
+    "name": "بوم كافيه"
+  }
+},
+{
+  "type": "node",
+  "id": 13171549701,
+  "lat": 29.9734259,
+  "lon": 31.1450054,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Farsha pyramids"
+  }
+},
+{
+  "type": "node",
+  "id": 13171668646,
+  "lat": 29.9723140,
+  "lon": 31.2355245,
+  "tags": {
+    "amenity": "cafe",
+    "name": "موسى"
+  }
+},
+{
+  "type": "node",
+  "id": 13177651403,
+  "lat": 30.0004060,
+  "lon": 31.1909512,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13177651410,
+  "lat": 30.1109291,
+  "lon": 31.3775334,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13177654902,
+  "lat": 30.1213308,
+  "lon": 31.3670763,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Casablanca"
+  }
+},
+{
+  "type": "node",
+  "id": 13177658004,
+  "lat": 30.1072629,
+  "lon": 31.3832043,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Yaya"
+  }
+},
+{
+  "type": "node",
+  "id": 13178409801,
+  "lat": 30.1030535,
+  "lon": 31.3866794,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Green island"
+  }
+},
+{
+  "type": "node",
+  "id": 13185604795,
+  "lat": 29.9614949,
+  "lon": 31.2785346,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Coffee Corner"
+  }
+},
+{
+  "type": "node",
+  "id": 13185714003,
+  "lat": 29.9613850,
+  "lon": 31.2785443,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Vietnamese Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 13186114553,
+  "lat": 29.9600653,
+  "lon": 31.2780991,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Vasko",
+    "name:ar": "فاسكو",
+    "name:en": "Vasko"
+  }
+},
+{
+  "type": "node",
+  "id": 13230500387,
+  "lat": 30.0371598,
+  "lon": 31.2332277,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Falak",
+    "name:ar": "فلك",
+    "name:en": "Falak"
+  }
+},
+{
+  "type": "node",
+  "id": 13311049584,
+  "lat": 30.0386003,
+  "lon": 31.2023376,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "bar": "no",
+    "check_date": "2025-11-17",
+    "cuisine": "coffee_shop",
+    "name": "Cilantro",
+    "name:ar": "سيلانترو",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "smoking": "outside",
+    "toilets": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13316643850,
+  "lat": 30.0386003,
+  "lon": 31.2023376,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "bar": "no",
+    "check_date": "2025-11-17",
+    "cuisine": "coffee_shop",
+    "name": "Cilantro",
+    "name:ar": "سيلانترو",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "smoking": "outside",
+    "toilets": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13333745128,
+  "lat": 29.9588673,
+  "lon": 31.2773834,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:housenumber": "13B",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 232",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "check_date": "2026-09-16",
+    "cuisine": "coffee_shop;sandwich;dessert;french;breakfast;bakery",
+    "level": "-1",
+    "name": "Ratios Underground",
+    "name:ar": "راشيوز اندرجراوند",
+    "opening_hours": "Mo-Su 07:30-18:00",
+    "outdoor_seating": "no",
+    "phone": "+20 11 11162062",
+    "smoking": "no",
+    "website": "https://ratiosbakery.com"
+  }
+},
+{
+  "type": "node",
+  "id": 13334195574,
+  "lat": 29.9599981,
+  "lon": 31.2508619,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "كاريبو كوفي",
+    "brand:ar": "كاريبو كوفي",
+    "brand:en": "Caribou Coffee",
+    "brand:wikidata": "Q5039494",
+    "check_date": "2025-11-26",
+    "cuisine": "coffee_shop",
+    "name": "كاريبو كوفي",
+    "name:ar": "كاريبو كوفي",
+    "name:en": "Caribou Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13336030007,
+  "lat": 29.9343799,
+  "lon": 31.1658675,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13336034503,
+  "lat": 29.9347620,
+  "lon": 31.1657445,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13336038902,
+  "lat": 29.9183466,
+  "lon": 31.1818412,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13336039303,
+  "lat": 29.9358104,
+  "lon": 31.1654064,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13336041702,
+  "lat": 29.9643854,
+  "lon": 31.1485624,
+  "tags": {
+    "amenity": "cafe",
+    "name": "they charge double"
+  }
+},
+{
+  "type": "node",
+  "id": 13336041704,
+  "lat": 29.9655627,
+  "lon": 31.1478170,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13336042202,
+  "lat": 29.9630290,
+  "lon": 31.1496787,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13336043101,
+  "lat": 29.9651763,
+  "lon": 31.1480425,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13336043201,
+  "lat": 29.9659878,
+  "lon": 31.1475569,
+  "tags": {
+    "amenity": "cafe",
+    "name": "try to charge more than normal"
+  }
+},
+{
+  "type": "node",
+  "id": 13337094413,
+  "lat": 29.9786328,
+  "lon": 31.1485536,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13337094416,
+  "lat": 29.9782251,
+  "lon": 31.1443149,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13337094418,
+  "lat": 29.9755960,
+  "lon": 31.1448542,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13337094517,
+  "lat": 29.9674062,
+  "lon": 31.1458301,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13337094601,
+  "lat": 29.9696171,
+  "lon": 31.1462616,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13337094602,
+  "lat": 29.9742522,
+  "lon": 31.1501803,
+  "tags": {
+    "amenity": "cafe",
+    "name": "they rip off tourists with double the normal price"
+  }
+},
+{
+  "type": "node",
+  "id": 13337094808,
+  "lat": 29.9746655,
+  "lon": 31.1450813,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13337094812,
+  "lat": 29.9714774,
+  "lon": 31.1457832,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13337095311,
+  "lat": 29.9751633,
+  "lon": 31.1447581,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13337095402,
+  "lat": 29.9742322,
+  "lon": 31.1500470,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13337095405,
+  "lat": 29.9748537,
+  "lon": 31.1450173,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13337095501,
+  "lat": 29.9751643,
+  "lon": 31.1493741,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13339057802,
+  "lat": 29.9656806,
+  "lon": 31.1514796,
+  "tags": {
+    "amenity": "cafe",
+    "name": "tried to charge double"
+  }
+},
+{
+  "type": "node",
+  "id": 13339057909,
+  "lat": 29.9645251,
+  "lon": 31.1487007,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13339058008,
+  "lat": 29.9668019,
+  "lon": 31.1500121,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13339058409,
+  "lat": 29.9644404,
+  "lon": 31.1487905,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13339058802,
+  "lat": 29.9642158,
+  "lon": 31.1484626,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13339058901,
+  "lat": 29.9675164,
+  "lon": 31.1505919,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13434471910,
+  "lat": 30.0565334,
+  "lon": 31.2174174,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13439398238,
+  "lat": 29.9724649,
+  "lon": 31.1197791,
+  "tags": {
+    "amenity": "cafe",
+    "indoor_seating": "yes",
+    "name": "Coffee Island",
+    "outdoor_seating": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13439398256,
+  "lat": 29.9723784,
+  "lon": 31.1200654,
+  "tags": {
+    "amenity": "cafe",
+    "indoor_seating": "yes",
+    "name": "Abdel Rahim Kpueider",
+    "outdoor_seating": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13440354901,
+  "lat": 30.0497166,
+  "lon": 31.2414572,
+  "tags": {
+    "addr:housenumber": "7",
+    "addr:street": "شارع الشواربي",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Art Space"
+  }
+},
+{
+  "type": "node",
+  "id": 13449109727,
+  "lat": 30.0094273,
+  "lon": 31.2077439,
+  "tags": {
+    "amenity": "cafe",
+    "indoor_seating": "yes",
+    "name": "Giza Lounge",
+    "outdoor_seating": "yes",
+    "smoking": "separated",
+    "takeaway": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 13449109793,
+  "lat": 30.0101070,
+  "lon": 31.2075559,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "5 stars"
+  }
+},
+{
+  "type": "node",
+  "id": 13480918977,
+  "lat": 30.0542449,
+  "lon": 31.4608542,
+  "tags": {
+    "amenity": "cafe",
+    "name": "قهوة العمدة"
+  }
+},
+{
+  "type": "node",
+  "id": 13506547672,
+  "lat": 30.0574023,
+  "lon": 31.2184399,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13519155809,
+  "lat": 30.0613721,
+  "lon": 31.3494430,
+  "tags": {
+    "amenity": "cafe",
+    "name": "جلال كافية",
+    "name:ar": "جلال كافية",
+    "name:en": "Galal Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13528650843,
+  "lat": 30.0569231,
+  "lon": 31.4682164,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13539109001,
+  "lat": 29.9626575,
+  "lon": 31.2632214,
+  "tags": {
+    "addr:housenumber": "7`",
+    "addr:street": "شارع النادي",
+    "amenity": "cafe",
+    "name": "kmt house"
+  }
+},
+{
+  "type": "node",
+  "id": 13539119201,
+  "lat": 29.9603809,
+  "lon": 31.2719997,
+  "tags": {
+    "amenity": "cafe",
+    "name": "genco speciality coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 13539126902,
+  "lat": 29.9574152,
+  "lon": 31.2763755,
+  "tags": {
+    "addr:street": "شارع 206",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "contact:instagram": "https://www.instagram.com/huff.eg",
+    "name": "Huff Board Game Café",
+    "opening_hours": "Mo-Su 11:00-24:00",
+    "outdoor_seating": "yes",
+    "phone": "010 92659621",
+    "website": "https://linktr.ee/huff.egypt",
+    "website:menu": "https://drive.google.com/file/d/1ELU2v95U63qc31mEZRHwmA94rTwomw61/view"
+  }
+},
+{
+  "type": "node",
+  "id": 13539130601,
+  "lat": 29.9584897,
+  "lon": 31.2709859,
+  "tags": {
+    "amenity": "cafe",
+    "name": "villa sumatra"
+  }
+},
+{
+  "type": "node",
+  "id": 13546019139,
+  "lat": 30.0276720,
+  "lon": 31.5495721,
+  "tags": {
+    "amenity": "cafe",
+    "contact:email": "caf.3sixty@tradefy.com",
+    "contact:facebook": "https://www.facebook.com/cafcafe.eg",
+    "contact:instagram": "https://www.instagram.com/cafcafe.eg",
+    "contact:phone": "+20 12 88354490",
+    "contact:website": "https://www.cafcafeeg.com",
+    "name": "Caf",
+    "opening_hours": "Mo-Su 08:00-24:00",
+    "tiktok": "https://www.tiktok.com/@cafcafe.eg"
+  }
+},
+{
+  "type": "node",
+  "id": 13568867845,
+  "lat": 30.1222597,
+  "lon": 31.3313184,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "regional;عصير_قصب",
+    "internet_access": "no",
+    "name": "ملك الفروله",
+    "opening_hours": "24/7",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13592426881,
+  "lat": 30.0969740,
+  "lon": 31.3171875,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Monyat Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13594911542,
+  "lat": 30.0967396,
+  "lon": 31.3167912,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Perfect Cup"
+  }
+},
+{
+  "type": "node",
+  "id": 13609353304,
+  "lat": 30.0893569,
+  "lon": 31.3472611,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13609353305,
+  "lat": 30.0893343,
+  "lon": 31.3471645,
+  "tags": {
+    "amenity": "cafe",
+    "name": "مقهى موسيتي",
+    "name:ar": "مقهى موسيتي",
+    "name:en": "Musetti Caffé"
+  }
+},
+{
+  "type": "node",
+  "id": 13611332065,
+  "lat": 30.0898756,
+  "lon": 31.3472954,
+  "tags": {
+    "amenity": "cafe",
+    "name": "كيوفا كافيه",
+    "name:ar": "كيوفا كافيه",
+    "name:en": "Quva Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13611332066,
+  "lat": 30.0898523,
+  "lon": 31.3472951,
+  "tags": {
+    "amenity": "cafe",
+    "name": "إلدرز كافيه",
+    "name:ar": "إلدرز كافيه",
+    "name:en": "Elders Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13613696501,
+  "lat": 30.1058405,
+  "lon": 31.3425656,
+  "tags": {
+    "addr:housenumber": "77",
+    "addr:postcode": "4470351",
+    "addr:street": "شارع عبد العزيز فهمى",
+    "amenity": "cafe",
+    "cuisine": "international",
+    "name": "Quadro Cafe",
+    "opening_hours": "Mo-Su 09:00-02:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13624605101,
+  "lat": 30.0372843,
+  "lon": 31.2342369,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Vasko"
+  }
+},
+{
+  "type": "node",
+  "id": 13710602201,
+  "lat": 30.0484685,
+  "lon": 31.2347724,
+  "tags": {
+    "addr:housenumber": "19",
+    "addr:street": "شارع مريت باشا",
+    "amenity": "cafe",
+    "cuisine": "cake;coffee_shop",
+    "name": "EUGÉNIE CAFE"
+  }
+},
+{
+  "type": "node",
+  "id": 13764485530,
+  "lat": 30.0153808,
+  "lon": 31.4080419,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Moka Bistro"
+  }
+},
+{
+  "type": "node",
+  "id": 13860406101,
+  "lat": 30.0466025,
+  "lon": 31.2126486,
+  "tags": {
+    "addr:street": "شارع نوال",
+    "amenity": "cafe",
+    "name": "قهوة الخان"
+  }
+},
+{
+  "type": "node",
+  "id": 13931804201,
+  "lat": 30.0911824,
+  "lon": 31.3435378,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Living It English"
+  }
+},
+{
+  "type": "node",
+  "id": 14060367868,
+  "lat": 30.0428484,
+  "lon": 31.2633809,
+  "tags": {
+    "amenity": "cafe",
+    "name": "kampung Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 14060367870,
+  "lat": 30.0434437,
+  "lon": 31.2627409,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Yalla Cafe Simpang X"
+  }
+},
+{
+  "type": "node",
+  "id": 14060465812,
+  "lat": 30.0484340,
+  "lon": 31.2672823,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Zone Coffe"
+  }
+},
+{
+  "type": "node",
+  "id": 14116069536,
+  "lat": 30.0441435,
+  "lon": 31.2626145,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Space kafe and resto"
+  }
+},
+{
+  "type": "node",
+  "id": 14122485958,
+  "lat": 29.9896489,
+  "lon": 31.1357079,
+  "tags": {
+    "amenity": "cafe",
+    "drink:coffee": "yes",
+    "drink:cola": "yes",
+    "drink:soft_drink": "yes",
+    "drink:tea": "yes",
+    "name": "Caffeine House",
+    "name:ar": "كافيه كافيين هاوس",
+    "name:en": "Caffeine House"
+  }
+},
+{
+  "type": "node",
+  "id": 14134647473,
+  "lat": 29.9905660,
+  "lon": 31.1362333,
+  "tags": {
+    "amenity": "cafe",
+    "drink:coffee": "yes",
+    "drink:juice": "yes",
+    "drink:smoothie": "yes",
+    "food:fruit_salad": "yes",
+    "food:ice_cream": "yes",
+    "mobile": "+20 101 161 0130",
+    "name": "كافيه بن برازيليا",
+    "name:ar": "كافيه بن برازيليا",
+    "name:en": "Brazilia Coffee",
+    "phone": "+20 101 161 0130",
+    "short_name": "BC",
+    "short_name:en": "BC"
+  }
+},
+{
+  "type": "node",
+  "id": 14138931246,
+  "lat": 30.0910642,
+  "lon": 31.3240064,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "check_date": "2026-09-01",
+    "cuisine": "coffee_shop;french;dessert",
+    "name": "بوشيه",
+    "name:ar": "بوشيه",
+    "name:en": "Bouchée",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "smoking": "outside",
+    "takeaway": "yes",
+    "website": "https://bouchee.eg"
+  }
+},
+{
+  "type": "node",
+  "id": 14144985268,
+  "lat": 30.0139828,
+  "lon": 31.2004154,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "drink:coffee": "yes",
+    "drink:juice": "yes",
+    "drink:salep": "yes",
+    "drink:soft_drink": "yes",
+    "drink:tea": "yes",
+    "name": "مقهى البستان",
+    "name:ar": "مقهى البستان",
+    "name:en": "Al Bostan"
+  }
+},
+{
+  "type": "node",
+  "id": 14163638869,
+  "lat": 29.9900580,
+  "lon": 31.1343978,
+  "tags": {
+    "alt_name": "كافيه ريست ريتو",
+    "alt_name:ar": "كافيه ريست ريتو",
+    "amenity": "cafe",
+    "drink:coffee": "yes",
+    "drink:soft_drink": "yes",
+    "drink:tea": "yes",
+    "name": "كافيه ريستريتو",
+    "name:ar": "كافيه ريستريتو",
+    "name:en": "Ristretto"
+  }
+},
+{
+  "type": "node",
+  "id": 14166587468,
+  "lat": 30.0604123,
+  "lon": 31.2216561,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-09-09",
+    "name": "روتو",
+    "name:ar": "روتو",
+    "name:en": "Rotto"
+  }
+},
+{
+  "type": "node",
+  "id": 14170931908,
+  "lat": 29.9910933,
+  "lon": 31.1383533,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/TotalEnergiesEgypt",
+    "drink:coffee": "yes",
+    "drink:juice": "yes",
+    "drink:soft_drink": "yes",
+    "drink:tea": "yes",
+    "email": "EG-TEME.CS@totalenergies.eg",
+    "name": "Bonjour",
+    "name:ar": "كافيه بونجور",
+    "name:en": "Bonjour",
+    "phone": "16491;+20 2 5225620;+20 2 5225655;+20 2 5198801",
+    "website": "https://totalenergies.eg/ar/lkhdmt/bwnjwr"
+  }
+},
+{
+  "type": "node",
+  "id": 14183407901,
+  "lat": 29.9610685,
+  "lon": 31.2651897,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:postcode": "11728",
+    "addr:street": "شارع عرابي",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/Elqahwa.khan/",
+    "contact:instagram": "https://www.instagram.com/elqahwakhan",
+    "cuisine": "coffee_shop;breakfast",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "El Qahwa Khan",
+    "name:ar": "القهوه خان",
+    "opening_hours": "Mo-Su 08:00-24:00",
+    "outdoor_seating": "yes",
+    "phone": "+201202512482"
+  }
+},
+{
+  "type": "node",
+  "id": 14183698430,
+  "lat": 29.9615541,
+  "lon": 31.2967827,
+  "tags": {
+    "addr:street": "شارع زهراء المعادي",
+    "amenity": "cafe",
+    "name": "Cilantro Zahraa El Maadi",
+    "phone": "+201015375287",
+    "website": "https://cilantro.cafe/",
+    "website:menu": "https://onelink.to/loyaltyapp"
+  }
+},
+{
+  "type": "node",
+  "id": 14183860638,
+  "lat": 29.9499182,
+  "lon": 31.2681609,
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:housenumber": "4",
+    "addr:postcode": "11729",
+    "addr:street": "شارع 9",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/rouhstudios",
+    "internet_access": "no",
+    "name": "Rouh",
+    "name:ar": "رُوحُ",
+    "opening_hours": "Mo-Su 12:00-01:00",
+    "outdoor_seating": "no",
+    "phone": "+201003225686"
+  }
+},
+{
+  "type": "node",
+  "id": 14184045193,
+  "lat": 29.9611701,
+  "lon": 31.2777661,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 232",
+    "amenity": "cafe",
+    "contact:instagram": "https://www.instagram.com/easttcafe/",
+    "cuisine": "bubble_tea",
+    "internet_access": "no",
+    "name": "East Tea Cafe",
+    "opening_hours": "Mo-Su 11:00-24:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 14184096681,
+  "lat": 29.9619067,
+  "lon": 31.2775750,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:housenumber": "29",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 232",
+    "amenity": "cafe",
+    "contact:instagram": "https://www.instagram.com/ohcoffeeee",
+    "cuisine": "coffee_shop",
+    "name": "OH! Coffee",
+    "opening_hours": "Mo-Fr 09:00-24:00",
+    "outdoor_seating": "no",
+    "phone": "+201066886242"
+  }
+},
+{
+  "type": "node",
+  "id": 14184128373,
+  "lat": 29.9619353,
+  "lon": 31.2772183,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:housenumber": "16",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 231",
+    "amenity": "cafe",
+    "contact:instagram": "https://www.instagram.com/mingteamaadi_/",
+    "cuisine": "bubble_tea",
+    "opening_hours": "Mo-Su 11:00-24:00",
+    "outdoor_seating": "yes",
+    "phone": "+201212206258"
+  }
+},
+{
+  "type": "node",
+  "id": 14184148116,
+  "lat": 29.9616548,
+  "lon": 31.2694193,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:housenumber": "4",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 21",
+    "amenity": "cafe",
+    "contact:instagram": "https://www.instagram.com/floatingcups/",
+    "cuisine": "coffee_shop;breakfast",
+    "name": "Floating Cups",
+    "note": "Located in CSA Reviving Community",
+    "opening_hours": "Mo-Su 07:00-19:00",
+    "outdoor_seating": "yes",
+    "website:menu": "https://www.instagram.com/stories/highlights/18130640425442453/"
+  }
+},
+{
+  "type": "node",
+  "id": 14184191199,
+  "lat": 29.9584386,
+  "lon": 31.2781896,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 233",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "contact:instagram": "https://www.instagram.com/wantedcafe/",
+    "cuisine": "coffee_shop",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "WANTED",
+    "opening_hours": "24/7",
+    "phone": "+201114785177"
+  }
+},
+{
+  "type": "node",
+  "id": 14184203848,
+  "lat": 29.9618862,
+  "lon": 31.2756211,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:postcode": "11728",
+    "addr:street": "شارع 206",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/CilantroCafee/",
+    "contact:instagram": "https://www.instagram.com/cilantro.cafe",
+    "cuisine": "coffee_shop",
+    "email": "customerservice@cilantrocafe.net",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Cilantro Degla Maadi",
+    "opening_hours": "Mo-Su 07:00-23:00",
+    "outdoor_seating": "no",
+    "phone": "+201201200061",
+    "website": "http://www.cilantro-cafe.com/",
+    "website:menu": "https://onelink.to/loyaltyapp"
+  }
+},
+{
+  "type": "node",
+  "id": 14184230989,
+  "lat": 29.9546907,
+  "lon": 31.2732707,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/7ara8Cafe/",
+    "name": "كافية حارة 8",
+    "opening_hours": "24/7",
+    "outdoor_seating": "yes",
+    "phone": "+20 11 15887711"
+  }
+},
+{
+  "type": "node",
+  "id": 14189043518,
+  "lat": 30.0604663,
+  "lon": 31.2204665,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:street": "شارع الكامل محمد",
+    "amenity": "cafe",
+    "contact:instagram": "https://www.instagram.com/gramophongallery/",
+    "name": "Gramophone",
+    "name:ar": "جرامافون",
+    "opening_hours": "Mo-Su 09:00-24:00",
+    "outdoor_seating": "no",
+    "phone": "+201050009887"
+  }
+},
+{
+  "type": "node",
+  "id": 14189312335,
+  "lat": 30.0353939,
+  "lon": 31.2313715,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:street": "شارع اتحاد المحامين العرب",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/roomartspace",
+    "contact:instagram": "https://www.instagram.com/roomartspaceofficial",
+    "level": "-1",
+    "name": "Room Art Space",
+    "opening_hours": "Mo-Su 09:00-23:00",
+    "outdoor_seating": "no",
+    "phone": "+201000681543",
+    "website": "https://www.roomart.space/"
+  }
+},
+{
+  "type": "node",
+  "id": 14189387547,
+  "lat": 29.9524908,
+  "lon": 31.2646974,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:street": "شارع 9",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/rusticcafeeg/",
+    "contact:instagram": "https://www.instagram.com/rusticcafeeg",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Rustic",
+    "opening_hours": "Mo-Su 10:00-02:00",
+    "outdoor_seating": "yes",
+    "phone": "+20 10 39882515",
+    "website": "https://menuviel.com/ar/rusticcafeandrestaurant/1a27bf30-50ec-42ba-9739-08e1f8a3ff8f"
+  }
+},
+{
+  "type": "node",
+  "id": 14189677632,
+  "lat": 30.0419369,
+  "lon": 31.2397275,
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:street": "شارع منصور",
+    "amenity": "cafe",
+    "contact:instagram": "https://www.instagram.com/bttr.mrngs",
+    "name": "BTTR MRNGS",
+    "outdoor_seating": "yes",
+    "phone": "+201117002477",
+    "website": "https://quickress.com/@bttrmrngs"
+  }
+},
+{
+  "type": "node",
+  "id": 14190041514,
+  "lat": 30.0573494,
+  "lon": 31.2230928,
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:street": "شارع الشيخ المرصفي",
+    "amenity": "cafe",
+    "contact:instagram": "https://www.instagram.com/foam.brunchandbrews/",
+    "name": "FOAM | Brunch & Brews",
+    "opening_hours": "Mo-Su 08:00-21:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 14190061985,
+  "lat": 30.0647774,
+  "lon": 31.2217005,
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:street": "شارع احمد حشمت",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Auntie loulou",
+    "name:ar": "انتى لولو",
+    "opening_hours": "Mo-Su 08:00-24:00",
+    "outdoor_seating": "yes",
+    "phone": "+20227352514",
+    "website:menu": "https://qr.imenupro.com/19jl-n"
+  }
+},
+{
+  "type": "node",
+  "id": 14190068397,
+  "lat": 30.0654495,
+  "lon": 31.2215833,
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:street": "شارع محمد المرعشلي",
+    "amenity": "cafe",
+    "contact:instagram": "https://www.instagram.com/fornalia.eg/",
+    "cuisine": "coffee_shop;dessert;cake",
+    "name": "Fornalia artisan bakery and Café",
+    "name:ar": "فورناليا بيكاري شوب",
+    "opening_hours": "Mo-Su 08:00-01:00",
+    "outdoor_seating": "no",
+    "phone": "01022173376",
+    "website": "https://fornalia.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14211542244,
+  "lat": 29.9914836,
+  "lon": 31.1389775,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "drink:coffee": "yes",
+    "drink:salep": "yes",
+    "drink:soft_drink": "yes",
+    "drink:tea": "yes",
+    "name": "مقهى كوكب الشرق",
+    "name:ar": "مقهى كوكب الشرق",
+    "name:en": "Kawkab al Sharq"
+  }
+},
+{
+  "type": "way",
+  "id": 156232772,
+  "center": {
+    "lat": 30.0591865,
+    "lon": 31.4897602
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "سيلانترو",
+    "name:ar": "سيلانترو",
+    "name:en": "Cilantro"
+  }
+},
+{
+  "type": "way",
+  "id": 156232775,
+  "center": {
+    "lat": 30.0591530,
+    "lon": 31.4895348
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "كوستا كوفي",
+    "name:ar": "كوستا كوفي",
+    "name:en": "Costa Coffee"
+  }
+},
+{
+  "type": "way",
+  "id": 156232776,
+  "center": {
+    "lat": 30.0590906,
+    "lon": 31.4893151
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "سينابون",
+    "name:ar": "سينابون",
+    "name:en": "Cinnabon"
+  }
+},
+{
+  "type": "way",
+  "id": 165498733,
+  "center": {
+    "lat": 30.0436095,
+    "lon": 31.2225346
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "Opera Cafe",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 325002945,
+  "center": {
+    "lat": 30.0257409,
+    "lon": 31.2118423
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "burger;pizza;coffee_shop;sandwich;shawarma;pasta;crepe",
+    "name": "zed",
+    "opening_hours": "Su-Thu 8:30-6:00",
+    "outdoor_seating": "yes",
+    "source": "http://www.eng.cu.edu.eg/"
+  }
+},
+{
+  "type": "way",
+  "id": 325049699,
+  "center": {
+    "lat": 30.0286088,
+    "lon": 31.2126960
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 730110665,
+  "center": {
+    "lat": 29.9662241,
+    "lon": 31.2686009
+  },
+  "tags": {
+    "addr:country": "EG",
+    "addr:district": "المعادى",
+    "addr:district:en": "El Maadi",
+    "addr:housenumber": "48",
+    "addr:postcode": "11728",
+    "addr:province": "القاهرة",
+    "addr:province:en": "Cairo",
+    "addr:street": "شارع 79",
+    "addr:street:en": "Street 79",
+    "addr:subdistrict": "السرايات الشرقيه",
+    "addr:subdistrict:en": "East Al Sarayat",
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "Zeera Cafe",
+    "phone": "+20 2 25177202"
+  }
+},
+{
+  "type": "way",
+  "id": 730110675,
+  "center": {
+    "lat": 29.9656254,
+    "lon": 31.2696296
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name": "Costa",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 761734546,
+  "center": {
+    "lat": 30.0574116,
+    "lon": 31.2227163
+  },
+  "tags": {
+    "addr:country": "EG",
+    "addr:district": "الزمالك",
+    "addr:district:en": "El Zamalek",
+    "addr:housenumber": "10",
+    "addr:postcode": "11568",
+    "addr:province": "القاهرة",
+    "addr:province:en": "Cairo",
+    "addr:street": "شارع الشيخ المرصفي",
+    "addr:street:en": "Al Sheikh Al Marsafi Street",
+    "addr:subdistrict": "عمر الخيام",
+    "addr:subdistrict:en": "Omar El Khayam",
+    "amenity": "cafe",
+    "building": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Beano's",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 768636278,
+  "center": {
+    "lat": 30.0474458,
+    "lon": 31.2375077
+  },
+  "tags": {
+    "addr:country": "EG",
+    "addr:district": "قصر النيل",
+    "addr:district:en": "Qasr Al Nile",
+    "addr:housenumber": "12",
+    "addr:postcode": "11519",
+    "addr:province": "القاهرة",
+    "addr:province:en": "Cairo",
+    "addr:street": "شارع قصر النيل",
+    "addr:street:en": "Kasr El Nil Street",
+    "addr:subdistrict": "الاسماعيليه",
+    "addr:subdistrict:en": "Al Ismalia",
+    "amenity": "cafe",
+    "building": "yes",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 768636298,
+  "center": {
+    "lat": 30.0465015,
+    "lon": 31.2393110
+  },
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:country": "EG",
+    "addr:district": "عابدين",
+    "addr:district:en": "Aabdin",
+    "addr:housenumber": "22",
+    "addr:postcode": "11513",
+    "addr:province": "القاهرة",
+    "addr:province:en": "Cairo",
+    "addr:street": "شارع يوسف الجندي",
+    "addr:street:en": "Youssef Al Gendy Street",
+    "addr:subdistrict": "باب اللوق",
+    "addr:subdistrict:en": "Bab El Louk",
+    "amenity": "cafe",
+    "building:part": "yes",
+    "internet_access": "wlan",
+    "name:en": "Studio Café",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 771960598,
+  "center": {
+    "lat": 30.0532795,
+    "lon": 31.2431901
+  },
+  "tags": {
+    "addr:city": "القاهرة",
+    "addr:country": "EG",
+    "addr:district": "الازبكيه",
+    "addr:district:en": "Al Azbakeya",
+    "addr:housenumber": "2",
+    "addr:postcode": "11574",
+    "addr:province": "القاهرة",
+    "addr:province:en": "Cairo",
+    "addr:street": "شارع سرايا الازبكيه",
+    "addr:street:en": "Saria Al Azbakeya Street",
+    "addr:subdistrict": "عرابى التوفقية",
+    "addr:subdistrict:en": "Orabi Al Tawfikeya",
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "omkalsoum cafe",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 772279716,
+  "center": {
+    "lat": 30.0510204,
+    "lon": 31.2427250
+  },
+  "tags": {
+    "addr:country": "EG",
+    "addr:district": "عابدين",
+    "addr:district:en": "Aabdin",
+    "addr:housenumber": "26",
+    "addr:postcode": "11518",
+    "addr:province": "القاهرة",
+    "addr:province:en": "Cairo",
+    "addr:street": "شارع عدلي",
+    "addr:street:en": "Adly Street",
+    "addr:subdistrict": "الفواله",
+    "addr:subdistrict:en": "El Fawala",
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Crafted Home كرافتيد هوم",
+    "opening_hours": "10:00-22:00",
+    "phone": "01551109792",
+    "roof:shape": "flat",
+    "website": "https://www.facebook.com/craftedhome.eg"
+  }
+},
+{
+  "type": "way",
+  "id": 884560303,
+  "center": {
+    "lat": 30.0634145,
+    "lon": 31.2124048
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "industrial",
+    "building:levels": "1",
+    "name": "Snow Cafe"
+  }
+},
+{
+  "type": "way",
+  "id": 912384432,
+  "center": {
+    "lat": 29.9560582,
+    "lon": 31.2616410
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1122578579,
+  "center": {
+    "lat": 29.9887861,
+    "lon": 31.4047032
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "The Coffee Bean & Tea Leaf",
+    "brand:wikidata": "Q1141384",
+    "cuisine": "coffee_shop",
+    "fixme": "may be depicted as too big",
+    "name": "The Coffee Bean & Tea Leaf",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1123846026,
+  "center": {
+    "lat": 30.0563236,
+    "lon": 31.2052433
+  },
+  "tags": {
+    "addr:country": "EG",
+    "addr:district": "العجوزه",
+    "addr:district:en": "Al Agouza",
+    "addr:housenumber": "30",
+    "addr:postcode": "12654",
+    "addr:province": "الجيزه",
+    "addr:province:en": "Giza",
+    "addr:street": "شارع جامعه الدول العربيه",
+    "addr:street:en": "Gamaa Al Doul Al Arabiya Street",
+    "addr:subdistrict": "الحوتيه",
+    "addr:subdistrict:en": "Al Hoteya",
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "قهوة المملكة",
+    "name:ar": "قهوة المملكة",
+    "name:en": "El Mamlaka Cafe"
+  }
+},
+{
+  "type": "way",
+  "id": 1225895985,
+  "center": {
+    "lat": 30.0631280,
+    "lon": 31.3489217
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "سكند كب",
+    "name:ar": "سكند كب",
+    "name:en": "Second Cup Child's park"
+  }
+},
+{
+  "type": "way",
+  "id": 1227532108,
+  "center": {
+    "lat": 30.0983464,
+    "lon": 31.3198712
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks"
+  }
+},
+{
+  "type": "way",
+  "id": 1234661055,
+  "center": {
+    "lat": 30.0438938,
+    "lon": 31.2021357
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "La Poire"
+  }
+},
+{
+  "type": "way",
+  "id": 1238268829,
+  "center": {
+    "lat": 29.9784428,
+    "lon": 31.1247793
+  },
+  "tags": {
+    "amenity": "cafe",
+    "barrier": "wall",
+    "cuisine": "cake",
+    "name": "لادوري باريس",
+    "name:ar": "لادوري باريس",
+    "name:en": "Laduree Paris"
+  }
+},
+{
+  "type": "way",
+  "id": 1458329376,
+  "center": {
+    "lat": 30.0690918,
+    "lon": 31.4678934
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1466152517,
+  "center": {
+    "lat": 29.9969468,
+    "lon": 31.2176122
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "حورس كافتيريا",
+    "name:ar": "حورس كافتيريا",
+    "name:en": "Horus Cafeteria"
+  }
+},
+{
+  "type": "way",
+  "id": 1466745750,
+  "center": {
+    "lat": 30.0988172,
+    "lon": 31.3067898
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks"
+  }
+},
+{
+  "type": "way",
+  "id": 1466745758,
+  "center": {
+    "lat": 30.0984591,
+    "lon": 31.3064045
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "تريتس اند ايتس",
+    "name:ar": "تريتس اند ايتس",
+    "name:en": "Treats 'N Eats"
+  }
+},
+{
+  "type": "way",
+  "id": 1468487894,
+  "center": {
+    "lat": 29.9297803,
+    "lon": 31.2807229
+  },
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيتريا النيل",
+    "name:ar": "كافيتريا النيل",
+    "name:en": "Nile Cafeteria"
+  }
+},
+{
+  "type": "way",
+  "id": 1468487900,
+  "center": {
+    "lat": 29.9298305,
+    "lon": 31.2802870
+  },
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيتريا النيل",
+    "name:ar": "كافيتريا النيل",
+    "name:en": "Nile Cafeteria"
+  }
+},
+{
+  "type": "way",
+  "id": 1468487901,
+  "center": {
+    "lat": 29.9301518,
+    "lon": 31.2802205
+  },
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافيتريا النيل",
+    "name:ar": "كافيتريا النيل",
+    "name:en": "Nile Cafeteria"
+  }
+},
+{
+  "type": "way",
+  "id": 1470242580,
+  "center": {
+    "lat": 30.0517803,
+    "lon": 31.3261703
+  },
+  "tags": {
+    "amenity": "cafe",
+    "name": "كافية الأمير",
+    "name:ar": "كافية الأمير",
+    "name:en": "Prince Cafe"
+  }
+},
+{
+  "type": "way",
+  "id": 1473296226,
+  "center": {
+    "lat": 30.0630635,
+    "lon": 31.3491898
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "سينابون",
+    "name:ar": "سينابون",
+    "name:en": "Cinnabon"
+  }
+},
+{
+  "type": "way",
+  "id": 1473296228,
+  "center": {
+    "lat": 30.0629727,
+    "lon": 31.3491821
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "TBS - The Bakery Shop"
+  }
+},
+{
+  "type": "way",
+  "id": 1473296229,
+  "center": {
+    "lat": 30.0629252,
+    "lon": 31.3491869
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "KOHI"
+  }
+},
+{
+  "type": "way",
+  "id": 1474162388,
+  "center": {
+    "lat": 30.0402250,
+    "lon": 31.2638039
+  },
+  "tags": {
+    "amenity": "cafe",
+    "name": "تريانون كافيه",
+    "name:ar": "تريانون كافيه",
+    "name:en": "Trianon Cafe"
+  }
+},
+{
+  "type": "way",
+  "id": 1475275863,
+  "center": {
+    "lat": 30.0500685,
+    "lon": 31.2269665
+  },
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "way",
+  "id": 1475275864,
+  "center": {
+    "lat": 30.0496140,
+    "lon": 31.2269180
+  },
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "way",
+  "id": 1475275868,
+  "center": {
+    "lat": 30.0499648,
+    "lon": 31.2270966
+  },
+  "tags": {
+    "amenity": "cafe",
+    "name": "هنا القاهرة"
+  }
+},
+{
+  "type": "way",
+  "id": 1475528585,
+  "center": {
+    "lat": 29.9978936,
+    "lon": 31.2180800
+  },
+  "tags": {
+    "amenity": "cafe",
+    "barrier": "fence",
+    "name": "كافتريا اللوتس",
+    "name:ar": "كافتريا اللوتس",
+    "name:en": "Lotus Cafeteria"
+  }
+},
+{
+  "type": "way",
+  "id": 1551803820,
+  "center": {
+    "lat": 30.0496769,
+    "lon": 31.2632305
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1559977522,
+  "center": {
+    "lat": 30.0507408,
+    "lon": 31.2451862
+  },
+  "tags": {
+    "addr:city": "Cairo",
+    "addr:street": "شارع عبد الخالق ثروت",
+    "alt_name": "جروبي",
+    "alt_name:ar": "چروبي",
+    "alt_name:en": "Groppi",
+    "amenity": "cafe",
+    "building": "yes",
+    "contact:facebook": "https://www.facebook.com/groppigarden/",
+    "cuisine": "dessert;coffee_shop",
+    "name": "Groppi Garden - Tharwat",
+    "name:ar": "جروبي - ثروت",
+    "opening_hours": "Mo-Su 07:00-01:00",
+    "outdoor_seating": "yes",
+    "phone": "01005142444 - 01005142445 - 01005142446",
+    "website": "https://www.groppi-eg.com/",
+    "wikidata": "Q6757577"
+  }
+}
+
+  ]
+}

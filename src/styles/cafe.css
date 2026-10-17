@@ -1,0 +1,78 @@
+/* ---------------- café page: a coloured band that says if it is open, then the facts ---------------- */
+.cafe__band {
+  --band: var(--slate);
+  background: var(--band); color: var(--on-dark);
+  padding: 24px var(--margin) clamp(36px, 5vw, 64px); display: grid; gap: 14px; justify-items: start;
+}
+.cafe--open .cafe__band { --band: var(--red); }
+.cafe--closed .cafe__band { --band: var(--maroon); }
+.cafe__back { display: inline-flex; gap: 8px; align-items: center; min-height: 44px; font-weight: 600; text-decoration: none; }
+.cafe__back:hover { text-decoration: underline; text-underline-offset: 4px; }
+.arr--back { scale: 1; }
+:root[dir='rtl'] .arr--back { scale: -1 1; }
+.cafe__status { font-size: var(--step-lead); font-weight: 600; margin-top: clamp(24px, 6vw, 72px); }
+.cafe__name { font-size: clamp(64px, 10vw, 168px); max-width: 16ch; overflow-wrap: anywhere; outline: none; width: fit-content; }
+:root[dir='rtl'] .cafe__name { font-size: clamp(56px, 8.4vw, 140px); }
+.cafe__alt { font-size: var(--step-lead); opacity: .9; }
+.cafe__alt:lang(ar) { font-family: 'IBM Plex Sans Arabic', sans-serif; }
+.cafe__where { font-size: 18px; }
+.cafe__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.btn--ghost-on { background: color-mix(in srgb, var(--paper) 18%, transparent); color: var(--on-dark); }
+@media (hover: hover) and (pointer: fine) { .btn--ghost-on:hover { background: color-mix(in srgb, var(--paper) 28%, transparent); } }
+.ico { width: 18px; fill: currentColor; }
+
+.cafe__body {
+  display: grid; grid-template-columns: repeat(12, 1fr); gap: 8px; padding: 8px;
+}
+.panel-block { background: var(--paper); padding: clamp(20px, 2.6vw, 36px); display: grid; gap: 14px; align-content: start; }
+.panel-block h2 { font-size: clamp(32px, 3vw, 48px); }
+.cafe__hours { grid-column: 1 / span 5; }
+.cafe__facts { grid-column: 6 / span 4; }
+.cafe__notes { grid-column: 10 / span 3; }
+.cafe__map { grid-column: 1 / -1; display: grid; gap: 10px; }
+.muted { color: var(--muted); }
+
+.cafe__hours table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+.cafe__hours th, .cafe__hours td { text-align: start; padding: 9px 0; font-size: 17px; }
+.cafe__hours th { font-weight: 400; color: var(--muted); padding-inline-end: 16px; }
+.cafe__hours tr + tr th, .cafe__hours tr + tr td { border-top: 1px solid var(--surface); }
+.cafe__hours tr.is-today th, .cafe__hours tr.is-today td { font-weight: 600; color: var(--ink); }
+.cafe__hours tr.is-today td { color: var(--red); }
+.cafe--closed .cafe__hours tr.is-today td { color: var(--maroon); }
+
+.cafe__facts dl { margin: 0; display: grid; gap: 2px; }
+.cafe__facts dl > div { display: flex; justify-content: space-between; gap: 16px; padding: 10px 12px; background: var(--bone); }
+.cafe__facts dt { font-weight: 600; }
+.cafe__facts .is-unknown dd { color: var(--muted); }
+.cafe__facts dd { margin: 0; text-align: end; }
+
+.cafe__notes fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 8px; }
+.cafe__notes legend { font-weight: 600; padding: 0; margin-bottom: 8px; }
+.seg { display: flex; flex-wrap: wrap; gap: 4px; }
+.seg button { min-height: 42px; padding: 0 14px; border: 0; background: var(--bone); font-weight: 600; font-size: 15px; transition: background-color 180ms ease, color 180ms ease, transform var(--press) var(--ease-out); }
+.seg button:active { transform: scale(.96); }
+.seg button[aria-pressed='true'] { background: var(--ink); color: var(--paper); }
+
+.minimap { position: relative; z-index: 0; isolation: isolate; height: clamp(240px, 34vw, 420px); }
+.minimap .leaflet-container { position: absolute; inset: 0; background: var(--surface); }
+.minimap .leaflet-tile-pane { filter: grayscale(.85) sepia(.32) brightness(1.06) contrast(.92); }
+.osm-link { font-weight: 600; width: fit-content; padding: 6px 0; }
+
+.cafe__near { padding: clamp(60px, 8vw, 110px) 0 80px; }
+.cafe__near h2 { font-size: clamp(44px, 5vw, 80px); padding: 0 var(--margin) 24px; }
+.cards--grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.cafe-missing { min-height: 70svh; display: grid; place-content: center; justify-items: start; gap: 20px; padding: var(--margin); }
+.cafe-missing h1 { font-size: clamp(48px, 7vw, 100px); max-width: 14ch; }
+
+/* ---------------- saved ---------------- */
+.saved__band { position: relative; background: var(--mustard); padding: 48px var(--margin) 0; min-height: 46svh; display: grid; overflow: hidden; }
+.saved__head { font-size: clamp(80px, 13vw, 210px); position: relative; z-index: 1; align-self: start; }
+.saved__photo { position: absolute; inset-inline-end: var(--margin); bottom: -12%; width: clamp(220px, 30vw, 440px); aspect-ratio: 4 / 3; object-fit: cover; rotate: -3deg; }
+.saved__list { padding-top: 24px; }
+.empty--saved { padding-block: 64px; }
+
+@media (max-width: 900px) {
+  .cafe__hours, .cafe__facts, .cafe__notes { grid-column: 1 / -1; }
+  .cafe__name { font-size: clamp(54px, 15vw, 96px); }
+  .saved__photo { position: relative; inset: auto; width: 70%; margin: 24px 0 -40px auto; }
+}

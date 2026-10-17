@@ -1,0 +1,86 @@
+/* ---------------- explorer: list beside the map; on phones a sheet over the map ---------------- */
+.explore { display: grid; grid-template-columns: minmax(360px, 430px) 1fr; height: calc(100svh - var(--nav-h)); }
+.explore__side { overflow: auto; overscroll-behavior: contain; background: var(--bone); scrollbar-width: thin; }
+.explore__map { position: relative; z-index: 0; isolation: isolate; }
+.map, .map .leaflet-container { position: absolute; inset: 0; background: var(--surface); font-family: var(--text); }
+.map .leaflet-tile-pane { filter: grayscale(.85) sepia(.32) brightness(1.06) contrast(.92); }
+.map-tip { font: 600 14px/1.2 var(--text); padding: 6px 9px; border: 0; border-radius: 0; background: var(--ink); color: var(--paper); box-shadow: 0 6px 18px -8px rgba(42, 17, 16, .5); }
+.map-tip::before { border-top-color: var(--ink) !important; }
+.leaflet-control-attribution { font: 12px var(--text); background: color-mix(in srgb, var(--bone) 88%, transparent) !important; }
+
+.panel { display: grid; align-content: start; }
+.panel__top { position: sticky; top: 0; z-index: 2; background: var(--bone); padding: 18px var(--margin) 12px; display: grid; gap: 12px; }
+
+.search { display: flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 14px; background: var(--paper); }
+.search svg { width: 20px; flex: none; fill: none; stroke: var(--muted); stroke-width: 2; stroke-linecap: round; }
+.search input { flex: 1; min-width: 0; border: 0; background: none; font-size: 17px; outline: none; }
+.search:focus-within { outline: 3px solid var(--mustard); outline-offset: 0; }
+.search input::placeholder { color: var(--muted); }
+
+.filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.fchip, .fselect select {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 13px; border: 0; border-radius: 0;
+  background: var(--surface); color: var(--ink); font-size: 15px; font-weight: 600;
+  transition: background-color 180ms ease, color 180ms ease, transform var(--press) var(--ease-out);
+}
+.fchip:active { transform: scale(.96); }
+.fchip.is-on { background: var(--ink); color: var(--paper); }
+.fchip--near svg { width: 15px; fill: currentColor; }
+.fchip--near.is-on { background: var(--slate); color: var(--on-dark); }
+@media (hover: hover) and (pointer: fine) { .fchip:not(.is-on):hover, .fselect select:hover { background: var(--surface-2); } }
+.fselect select { appearance: none; padding-inline-end: 30px; cursor: pointer; background-image: linear-gradient(45deg, transparent 50%, var(--ink) 50%), linear-gradient(-45deg, transparent 50%, var(--ink) 50%); background-size: 6px 6px; background-repeat: no-repeat; background-position: calc(100% - 16px) 50%, calc(100% - 11px) 50%; }
+:root[dir='rtl'] .fselect select { background-position: 16px 50%, 11px 50%; }
+
+.panel__status { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-top: 4px; }
+.panel__status p { font-size: 16px; }
+.linkish { border: 0; background: none; padding: 6px 0; font-size: 15px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.note { font-size: 14px; color: var(--muted); }
+
+/* ---------------- café cards ---------------- */
+.cards { list-style: none; margin: 0; padding: 4px var(--margin) 40px; display: grid; gap: 6px; }
+.card { position: relative; background: var(--paper); transition: background-color 200ms ease, translate 260ms var(--ease-out); }
+.card--active { background: #fff; translate: 6px 0; box-shadow: inset 5px 0 0 var(--red); }
+:root[dir='rtl'] .card--active { translate: -6px 0; box-shadow: inset -5px 0 0 var(--red); }
+.card__link { display: grid; gap: 4px; padding: 16px 64px 16px 18px; text-decoration: none; color: inherit; }
+:root[dir='rtl'] .card__link { padding: 16px 18px 16px 64px; }
+.card__name { font-size: 28px; line-height: .95; width: fit-content; max-width: 100%; overflow-wrap: anywhere; }
+:root[dir='rtl'] .card__name { font-size: 26px; line-height: 1.15; }
+.card__meta { font-size: 15px; color: var(--muted); }
+.card__state { font-size: 14px; font-weight: 600; display: inline-flex; align-items: center; gap: 7px; }
+.card__state::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: var(--muted); opacity: .5; }
+.card__state--open { color: #1d6e40; }
+.card__state--open::before { background: #1f8a4c; opacity: 1; box-shadow: 0 0 0 3px color-mix(in srgb, #1f8a4c 22%, transparent); }
+.card__state--closed { color: var(--maroon); }
+.card__state--closed::before { background: var(--maroon); opacity: 1; }
+.card__state--unknown { color: var(--muted); }
+.card__chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.card__chips:empty { display: none; }
+.chip { padding: 3px 8px; font-size: 13px; font-weight: 600; background: var(--bone); }
+.card__save {
+  position: absolute; top: 12px; inset-inline-end: 12px; width: 44px; height: 44px; display: grid; place-items: center;
+  border: 0; background: var(--bone); transition: background-color 180ms ease, transform var(--press) var(--ease-out);
+}
+.card__save svg { width: 20px; fill: none; stroke: var(--ink); stroke-width: 2; stroke-linejoin: round; transition: fill 180ms ease, transform 260ms var(--ease-out); }
+.card__save:active { transform: scale(.92); }
+.card__save.is-saved { background: var(--red); }
+.card__save.is-saved svg { fill: var(--paper); stroke: var(--paper); transform: scale(1.08); }
+@media (hover: hover) and (pointer: fine) { .card:hover .card__name { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 4px; } }
+
+.empty { padding: 48px var(--margin); display: grid; gap: 14px; justify-items: start; }
+.empty h2 { font-size: 44px; }
+.empty p { max-width: 36ch; color: var(--muted); }
+
+/* ---------------- phone sheet ---------------- */
+@media (max-width: 899px) {
+  .explore { display: block; height: calc(100svh - var(--nav-h)); position: relative; overflow: hidden; }
+  .explore__map { position: absolute; inset: 0; }
+  .sheet {
+    position: absolute; inset-inline: 0; top: 0; z-index: 20; height: calc(100svh - var(--nav-h));
+    background: var(--bone); display: grid; grid-template-rows: auto 1fr; overflow: hidden;
+    box-shadow: 0 -12px 32px -16px rgba(42, 17, 16, .45); /* the sheet floats over the map */
+  }
+  .sheet .panel { overflow: auto; overscroll-behavior: contain; padding-bottom: 30svh; }
+  .sheet__handle { display: grid; place-items: center; height: 30px; border: 0; background: var(--bone); cursor: grab; }
+  .sheet__handle i { width: 44px; height: 5px; border-radius: 3px; background: var(--muted); opacity: .5; }
+  .panel__top { padding-top: 4px; }
+}
