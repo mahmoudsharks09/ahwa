@@ -77,7 +77,7 @@ function Pins({ cafes, states, hovered, selected, onSelect }: Omit<Props, 'me' |
   const { lang } = useLang()
   const pins = useRef(new Map<string, Pin>())
   const select = useRef(onSelect)
-  select.current = onSelect
+  useEffect(() => { select.current = onSelect }, [onSelect])
 
   // add and remove pins as the filtered set changes
   useEffect(() => {
