@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { motion, useScroll, useTransform, useSpring, type MotionValue } from 'motion/react'
+import { motion, useAnimate, useMotionValue, useScroll, useTransform, useSpring, type MotionValue } from 'motion/react'
 import Lenis from 'lenis'
 import { cairoNow } from '../lib/time'
 import { useLang } from '../lib/i18n'
@@ -65,26 +65,53 @@ function useLiveCounts(): Counts {
   return counts
 }
 
-/* ---------------- hero: shouted headline, a street piece sprayed on the wall ---------------- */
+/* ---------------- hero: a street piece on the wall, the headline bursting out of it ---------------- */
 
 function Hero({ counts }: { counts: Counts }) {
   const { t, num } = useLang()
+  const reduce = useReducedMotion()
   const ref = useRef<HTMLElement>(null)
+  const artRef = useRef<HTMLElement>(null)
+  const [headRef, animate] = useAnimate<HTMLHeadingElement>()
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] })
-  // as you leave the first screen the graffiti keeps rising and the headline drifts up behind it
-  const artY = useTransform(scrollYProgress, [0, 1], ['0%', '-42%'])
-  const artRot = useTransform(scrollYProgress, [0, 1], [0, -3])
+  // the graffiti stays put; only the headline drifts up as you leave the first screen
   const headY = useTransform(scrollYProgress, [0, 1], ['0%', '-18%'])
+
+  // the graffiti pops in first (CSS), then the headline grows out of its middle, blurred to sharp
+  useLayoutEffect(() => {
+    const head = headRef.current, art = artRef.current
+    if (reduce || !head || !art) return
+    const h = head.getBoundingClientRect(), a = art.getBoundingClientRect()
+    const dx = a.left + a.width / 2 - (h.left + h.width / 2)
+    const dy = a.top + a.height / 2 - (h.top + h.height / 2)
+    animate(head, { x: [dx, 0], y: [dy, 0], scale: [0.15, 1], opacity: [0, 1], filter: ['blur(28px)', 'blur(0px)'] },
+      { duration: 1.1, delay: 0.6, ease: [0.16, 1, 0.3, 1] })
+  }, [reduce, animate, headRef])
+
+  // then the two lines lean toward the pointer, the second a little more, so they read as layers
+  const px = useMotionValue(0), py = useMotionValue(0)
+  const spring = { stiffness: 140, damping: 22, mass: 0.6 }
+  const sx = useSpring(px, spring), sy = useSpring(py, spring)
+  const x1 = useTransform(sx, (v) => v * 18), y1 = useTransform(sy, (v) => v * 10)
+  const x2 = useTransform(sx, (v) => v * 34), y2 = useTransform(sy, (v) => v * 18)
+  useEffect(() => {
+    if (reduce || !matchMedia('(hover: hover) and (pointer: fine)').matches) return
+    const move = (e: PointerEvent) => { px.set(e.clientX / innerWidth - 0.5); py.set(e.clientY / innerHeight - 0.5) }
+    window.addEventListener('pointermove', move)
+    return () => window.removeEventListener('pointermove', move)
+  }, [reduce, px, py])
 
   return (
     <section className="hero" ref={ref} aria-labelledby="hero-h">
-      <motion.h1 id="hero-h" className="hero__head" style={{ y: headY }}>
-        <span className="mask"><span style={{ '--d': '0ms' } as React.CSSProperties}>{t('heroLine1')}</span></span>
-        <span className="mask"><span style={{ '--d': '110ms' } as React.CSSProperties}>{t('heroLine2')}</span></span>
-      </motion.h1>
-      <motion.figure className="hero__art" role="img" aria-label={t('heroArt')} style={{ y: artY, rotate: artRot }}>
+      <motion.div className="hero__top" style={{ y: headY }}>
+        <h1 id="hero-h" className="hero__head" ref={headRef} style={reduce ? undefined : { opacity: 0 }}>
+          <motion.span style={{ x: x1, y: y1 }}>{t('heroLine1')}</motion.span>
+          <motion.span style={{ x: x2, y: y2 }}>{t('heroLine2')}</motion.span>
+        </h1>
+      </motion.div>
+      <figure className="hero__art" ref={artRef} role="img" aria-label={t('heroArt')}>
         <HeroGraffiti />
-      </motion.figure>
+      </figure>
       <p className="hero__line">{t('heroSentence')}</p>
       <p className="hero__fact">
         <strong>{counts ? num(counts.open) : '–'}</strong> {t('openRightNow')}
