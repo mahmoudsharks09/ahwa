@@ -1,5 +1,3 @@
-import { useId } from 'react'
-
 // a few overspray dots around the piece, fixed so the art is the same on every load
 const DOTS: [number, number, number, string][] = [
   [136, 228, 4, 'var(--ink)'], [128, 300, 3, 'var(--bone)'], [168, 470, 5, 'var(--mustard)'], [214, 486, 3, 'var(--mustard)'],
@@ -12,23 +10,16 @@ const star = 'M0 -22 L5 -5 L22 0 L5 5 L0 22 L-5 5 L-22 0 L-5 -5 Z'
 /**
  * The hero's street piece: a stencilled glass of red tea on a sprayed mustard throw-up,
  * the word قهوة tagged across it, with a crown, an Eye of Horus and drips, in the poster palette.
- * Each part sprays on in turn (see .g-* in home.css), then the steam keeps breathing; the noise filter
- * roughens every edge like paint on plaster.
+ * Each part sprays on in turn (see .g-* in home.css), then the steam keeps breathing. No SVG filter:
+ * a live noise filter re-ran over the whole piece on every animated frame and made the page lag.
  */
 export default function HeroGraffiti() {
-  const id = useId().replace(/:/g, '')
   return (
     <svg viewBox="0 0 800 600" aria-hidden="true" focusable="false">
-      <defs>
-        <filter id={`spray-${id}`} x="-5%" y="-5%" width="110%" height="110%">
-          <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7" />
-          <feDisplacementMap in="SourceGraphic" scale="7" />
-        </filter>
-      </defs>
-      <g filter={`url(#spray-${id})`}>
+      <g>
         {/* the throw-up behind everything, with its drips */}
         <g className="g-blob" style={{ '--d': '210ms' } as React.CSSProperties}>
-          <path fill="var(--mustard)" d="M150 260 C160 150 300 110 420 120 C560 100 690 160 700 270 C715 370 650 450 540 470 C430 495 300 480 210 440 C140 405 140 330 150 260 Z" />
+          <path fill="var(--mustard)" d="M150 262 C154 214 176 176 214 152 C236 140 262 136 290 128 C330 118 372 124 420 120 C468 112 520 108 562 120 C606 132 650 150 676 192 C694 220 702 246 700 272 C703 300 712 330 700 362 C686 400 660 430 624 448 C596 462 570 466 540 470 C506 478 470 488 430 486 C392 486 350 484 312 476 C276 470 240 456 210 440 C182 426 160 406 152 378 C144 350 148 320 146 296 C146 284 148 272 150 262 Z" />
         </g>
         <g stroke="var(--mustard)" strokeWidth="14" strokeLinecap="round">
           <path className="g-drip" style={{ '--d': '630ms' } as React.CSSProperties} d="M262 446 V528" />

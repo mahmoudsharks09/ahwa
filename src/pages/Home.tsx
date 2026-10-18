@@ -77,16 +77,35 @@ function Hero({ counts }: { counts: Counts }) {
   // the graffiti stays put; only the headline drifts up as you leave the first screen
   const headY = useTransform(scrollYProgress, [0, 1], ['0%', '-18%'])
 
-  // the graffiti sprays itself on in front (CSS); as it finishes, the headline grows out of its
-  // middle, blurred to sharp, and the graffiti steps back to become the wall behind it
+  // The graffiti sprays itself on (CSS), big in the middle of the screen. As it finishes it settles
+  // into its place under the headline, and the headline grows out of its middle, blurred to sharp.
+  // With reduced motion nothing travels or scales: the piece draws in place and the headline fades in.
   useLayoutEffect(() => {
-    const head = headRef.current, art = artRef.current
-    if (reduce || !head || !art) return
-    const h = head.getBoundingClientRect(), a = art.getBoundingClientRect()
-    const dx = a.left + a.width / 2 - (h.left + h.width / 2)
-    const dy = a.top + a.height / 2 - (h.top + h.height / 2)
-    animate(head, { x: [dx, 0], y: [dy, 0], scale: [0.15, 1], opacity: [0, 1], filter: ['blur(28px)', 'blur(0px)'] },
-      { duration: 1.1, delay: 1.45, ease: [0.16, 1, 0.3, 1] })
+    const hero = ref.current, art = artRef.current, head = headRef.current
+    if (!hero || !art || !head) return
+    const ease = [0.16, 1, 0.3, 1] as const
+    const settle = 1.45
+    // a leftover blur(0) would make the browser re-filter the headline on every mouse-follow frame
+    // (a frame later, because the animation writes its own final value after onComplete)
+    const clearBlur = () => requestAnimationFrame(() => { head.style.filter = 'none' })
+    if (reduce) {
+      const fade = animate(head, { opacity: [0, 1], filter: ['blur(12px)', 'blur(0px)'] }, { delay: 1.1, duration: 0.8, onComplete: clearBlur })
+      return () => fade.stop()
+    }
+    // measure where both really sit, without anything a previous run left behind
+    art.style.transform = head.style.transform = ''
+    const r = hero.getBoundingClientRect(), a = art.getBoundingClientRect(), h = head.getBoundingClientRect()
+    // the middle of the part of the hero you can see, on any screen
+    const cx = r.left + r.width / 2
+    const cy = r.top + Math.min(r.height, innerHeight) / 2
+    const s = Math.max(1, Math.min(1.35, (innerWidth * 0.94) / a.width, (innerHeight * 0.7) / a.height))
+    const ax = cx - (a.left + a.width / 2), ay = cy - (a.top + a.height / 2)
+    art.style.transform = `translate(${ax}px, ${ay}px) scale(${s})`
+    const move = animate(art, { x: [ax, 0], y: [ay, 0], scale: [s, 1] }, { delay: settle, duration: 1, ease })
+    const hx = cx - (h.left + h.width / 2), hy = cy - (h.top + h.height / 2)
+    const burst = animate(head, { x: [hx, 0], y: [hy, 0], scale: [0.15, 1], opacity: [0, 1], filter: ['blur(24px)', 'blur(0px)'] },
+      { delay: settle, duration: 1.1, ease, onComplete: clearBlur })
+    return () => { move.stop(); burst.stop() }
   }, [reduce, animate, headRef])
 
   // then the two lines lean toward the pointer, the second a little more, so they read as layers
@@ -98,23 +117,21 @@ function Hero({ counts }: { counts: Counts }) {
   useEffect(() => {
     if (reduce || !matchMedia('(hover: hover) and (pointer: fine)').matches) return
     const move = (e: PointerEvent) => { px.set(e.clientX / innerWidth - 0.5); py.set(e.clientY / innerHeight - 0.5) }
-    window.addEventListener('pointermove', move)
+    window.addEventListener('pointermove', move, { passive: true })
     return () => window.removeEventListener('pointermove', move)
   }, [reduce, px, py])
 
   return (
     <section className="hero" ref={ref} aria-labelledby="hero-h">
-      <div className="hero__stage">
-        <figure className="hero__art" ref={artRef} role="img" aria-label={t('heroArt')}>
-          <HeroGraffiti />
-        </figure>
-        <motion.div className="hero__top" style={{ y: headY }}>
-          <h1 id="hero-h" className="hero__head" ref={headRef} style={reduce ? undefined : { opacity: 0 }}>
-            <motion.span style={{ x: x1, y: y1 }}>{t('heroLine1')}</motion.span>
-            <motion.span style={{ x: x2, y: y2 }}>{t('heroLine2')}</motion.span>
-          </h1>
-        </motion.div>
-      </div>
+      <motion.div className="hero__top" style={{ y: headY }}>
+        <h1 id="hero-h" className="hero__head" ref={headRef} style={{ opacity: 0 }}>
+          <motion.span style={{ x: x1, y: y1 }}>{t('heroLine1')}</motion.span>
+          <motion.span style={{ x: x2, y: y2 }}>{t('heroLine2')}</motion.span>
+        </h1>
+      </motion.div>
+      <figure className="hero__art" ref={artRef} role="img" aria-label={t('heroArt')}>
+        <HeroGraffiti />
+      </figure>
       <p className="hero__line">{t('heroSentence')}</p>
       <p className="hero__fact">
         <strong>{counts ? num(counts.open) : '–'}</strong> {t('openRightNow')}
