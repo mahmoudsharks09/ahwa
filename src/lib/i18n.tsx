@@ -19,6 +19,10 @@ const STRINGS = {
     en: 'Real cafés across Cairo on one map. Filter by open now, Wi-Fi and seating, then go.',
     ar: 'كافيهات حقيقية في القاهرة كلها على خريطة واحدة. فلتر بالمفتوح دلوقتي والواي فاي والقعدة، وانزل.',
   },
+  heroArt: {
+    en: 'Street graffiti of a glass of red tea, with the word ahwa sprayed in Arabic',
+    ar: 'جرافيتي على الحيطة لكوباية شاي أحمر وكلمة قهوة مرشوشة بالعربي',
+  },
   openRightNow: { en: 'open right now', ar: 'مفتوحة دلوقتي' },
   ofListed: { en: 'of {n} with listed hours', ar: 'من {n} مواعيدها معروفة' },
   boardHead1: { en: 'Built for', ar: 'معمول' },

@@ -7,6 +7,7 @@ import { useLang } from '../lib/i18n'
 import { useReducedMotion } from '../lib/store'
 import Reveal from '../components/Reveal'
 import Footer from '../components/Footer'
+import HeroGraffiti from '../components/HeroGraffiti'
 import '../styles/home.css'
 
 export default function Home() {
@@ -64,15 +65,15 @@ function useLiveCounts(): Counts {
   return counts
 }
 
-/* ---------------- hero: shouted headline, rising photograph ---------------- */
+/* ---------------- hero: shouted headline, a street piece sprayed on the wall ---------------- */
 
 function Hero({ counts }: { counts: Counts }) {
   const { t, num } = useLang()
   const ref = useRef<HTMLElement>(null)
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] })
-  // as you leave the first screen the photo keeps rising and the headline drifts up behind it
-  const photoY = useTransform(scrollYProgress, [0, 1], ['0%', '-38%'])
-  const photoRot = useTransform(scrollYProgress, [0, 1], [0, -4])
+  // as you leave the first screen the graffiti keeps rising and the headline drifts up behind it
+  const artY = useTransform(scrollYProgress, [0, 1], ['0%', '-42%'])
+  const artRot = useTransform(scrollYProgress, [0, 1], [0, -3])
   const headY = useTransform(scrollYProgress, [0, 1], ['0%', '-18%'])
 
   return (
@@ -81,8 +82,8 @@ function Hero({ counts }: { counts: Counts }) {
         <span className="mask"><span style={{ '--d': '0ms' } as React.CSSProperties}>{t('heroLine1')}</span></span>
         <span className="mask"><span style={{ '--d': '110ms' } as React.CSSProperties}>{t('heroLine2')}</span></span>
       </motion.h1>
-      <motion.figure className="hero__photo" style={{ y: photoY, rotate: photoRot }}>
-        <img src="/img/tea-nile.jpg" alt="A glass of red tea on a table above the Nile, with Cairo across the water" width="1050" height="1400" fetchPriority="high" />
+      <motion.figure className="hero__art" role="img" aria-label={t('heroArt')} style={{ y: artY, rotate: artRot }}>
+        <HeroGraffiti />
       </motion.figure>
       <p className="hero__line">{t('heroSentence')}</p>
       <p className="hero__fact">
