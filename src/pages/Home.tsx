@@ -65,7 +65,7 @@ function useLiveCounts(): Counts {
   return counts
 }
 
-/* ---------------- hero: a street piece on the wall, the headline bursting out of it ---------------- */
+/* ---------------- hero: a street piece sprays itself on, then the headline bursts out of it ---------------- */
 
 function Hero({ counts }: { counts: Counts }) {
   const { t, num } = useLang()
@@ -77,7 +77,8 @@ function Hero({ counts }: { counts: Counts }) {
   // the graffiti stays put; only the headline drifts up as you leave the first screen
   const headY = useTransform(scrollYProgress, [0, 1], ['0%', '-18%'])
 
-  // the graffiti pops in first (CSS), then the headline grows out of its middle, blurred to sharp
+  // the graffiti sprays itself on in front (CSS); as it finishes, the headline grows out of its
+  // middle, blurred to sharp, and the graffiti steps back to become the wall behind it
   useLayoutEffect(() => {
     const head = headRef.current, art = artRef.current
     if (reduce || !head || !art) return
@@ -85,7 +86,7 @@ function Hero({ counts }: { counts: Counts }) {
     const dx = a.left + a.width / 2 - (h.left + h.width / 2)
     const dy = a.top + a.height / 2 - (h.top + h.height / 2)
     animate(head, { x: [dx, 0], y: [dy, 0], scale: [0.15, 1], opacity: [0, 1], filter: ['blur(28px)', 'blur(0px)'] },
-      { duration: 1.1, delay: 0.6, ease: [0.16, 1, 0.3, 1] })
+      { duration: 1.1, delay: 1.45, ease: [0.16, 1, 0.3, 1] })
   }, [reduce, animate, headRef])
 
   // then the two lines lean toward the pointer, the second a little more, so they read as layers
@@ -103,15 +104,17 @@ function Hero({ counts }: { counts: Counts }) {
 
   return (
     <section className="hero" ref={ref} aria-labelledby="hero-h">
-      <motion.div className="hero__top" style={{ y: headY }}>
-        <h1 id="hero-h" className="hero__head" ref={headRef} style={reduce ? undefined : { opacity: 0 }}>
-          <motion.span style={{ x: x1, y: y1 }}>{t('heroLine1')}</motion.span>
-          <motion.span style={{ x: x2, y: y2 }}>{t('heroLine2')}</motion.span>
-        </h1>
-      </motion.div>
-      <figure className="hero__art" ref={artRef} role="img" aria-label={t('heroArt')}>
-        <HeroGraffiti />
-      </figure>
+      <div className="hero__stage">
+        <figure className="hero__art" ref={artRef} role="img" aria-label={t('heroArt')}>
+          <HeroGraffiti />
+        </figure>
+        <motion.div className="hero__top" style={{ y: headY }}>
+          <h1 id="hero-h" className="hero__head" ref={headRef} style={reduce ? undefined : { opacity: 0 }}>
+            <motion.span style={{ x: x1, y: y1 }}>{t('heroLine1')}</motion.span>
+            <motion.span style={{ x: x2, y: y2 }}>{t('heroLine2')}</motion.span>
+          </h1>
+        </motion.div>
+      </div>
       <p className="hero__line">{t('heroSentence')}</p>
       <p className="hero__fact">
         <strong>{counts ? num(counts.open) : '–'}</strong> {t('openRightNow')}
