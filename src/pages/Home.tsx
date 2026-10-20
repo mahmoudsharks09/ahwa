@@ -1,10 +1,10 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { motion, useAnimate, useMotionValue, useScroll, useTransform, useSpring, type MotionValue } from 'motion/react'
+import { motion, useAnimate, useMotionValue, useScroll, useTransform, useSpring, type MotionValue, type Variants } from 'motion/react'
 import Lenis from 'lenis'
 import { cairoNow } from '../lib/time'
 import { useLang } from '../lib/i18n'
-import { useReducedMotion } from '../lib/store'
+import { useMedia, useReducedMotion } from '../lib/store'
 import Reveal from '../components/Reveal'
 import Footer from '../components/Footer'
 import HeroGraffiti from '../components/HeroGraffiti'
@@ -143,29 +143,70 @@ function Hero({ counts }: { counts: Counts }) {
 
 /* ---------------- features: close-ups of the interface on a board ---------------- */
 
+// the board's own curves, matching --ease-out and --ease-in-out in base.css
+const EASE_OUT = [0.16, 1, 0.3, 1] as const
+const EASE_IN_OUT = [0.77, 0, 0.175, 1] as const
+const STEP = 0.07
+
+// each tile wipes open from its bottom edge, then the interface piece inside it settles in;
+// `custom` is the tile's place in reading order, so the board fills top-left to bottom-right
+const tileIn: Variants = {
+  hidden: { clipPath: 'inset(100% 0% 0% 0%)' },
+  shown: (i: number) => ({ clipPath: 'inset(0% 0% 0% 0%)', transition: { duration: 0.7, ease: EASE_IN_OUT, delay: i * STEP } }),
+}
+const popIn: Variants = {
+  hidden: { opacity: 0, transform: 'scale(0.9)' },
+  shown: (i: number) => ({ opacity: 1, transform: 'scale(1)', transition: { duration: 0.6, ease: EASE_OUT, delay: i * STEP + 0.3 } }),
+}
+// stacked on a phone each tile watches itself, and a fully clipped element never registers
+// as in view, so there the tiles rise instead of wiping
+const tileRise: Variants = {
+  hidden: { opacity: 0, transform: 'translateY(24px)' },
+  shown: { opacity: 1, transform: 'translateY(0px)', transition: { duration: 0.7, ease: EASE_OUT } },
+}
+// reduced motion: no wipe or scale, just a short fade
+const tileFade: Variants = {
+  hidden: { opacity: 0 },
+  shown: { opacity: 1, transition: { duration: 0.3 } },
+}
+const popFade: Variants = { hidden: { opacity: 1 }, shown: { opacity: 1 } }
+
 function Board() {
   const { t } = useLang()
-  const tiles: { cls: string; name: string; line: string; ui: React.ReactNode }[] = [
-    { cls: 't-open', name: t('tOpenNow'), line: t('tOpenNowLine'), ui: <span className="ui-status"><i />{t('open')}</span> },
-    { cls: 't-wifi', name: t('tWifi'), line: t('tWifiLine'), ui: <span className="ui-chip ui-chip--on">{t('fWifi')}</span> },
-    { cls: 't-save', name: t('tSave'), line: t('tSaveLine'), ui: <span className="ui-save"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4.5L6 21z" /></svg></span> },
-    { cls: 't-near', name: t('tNear'), line: t('tNearLine'), ui: <span className="ui-dist">650<small>m</small></span> },
-    { cls: 't-lang', name: t('tLang'), line: t('tLangLine'), ui: <span className="ui-lang"><b>EN</b><b lang="ar">ع</b></span> },
-    { cls: 't-closing', name: t('tClosing'), line: t('tClosingLine'), ui: <span className="ui-bar"><i /></span> },
-    { cls: 't-outdoor', name: t('tOutdoor'), line: t('tOutdoorLine'), ui: <span className="ui-chip">{t('fOutdoor')}</span> },
+  const reduce = useReducedMotion()
+  // on the wide grid the whole board is on screen at once, so it plays as one sequence;
+  // stacked on a phone it's too tall for that, so each tile starts as it scrolls in
+  const wide = useMedia('(min-width: 761px)')
+  // `order` is the tile's position on the wide grid, read row by row
+  const tiles: { cls: string; order: number; name: string; line: string; ui: React.ReactNode }[] = [
+    { cls: 't-open', order: 3, name: t('tOpenNow'), line: t('tOpenNowLine'), ui: <span className="ui-status"><i />{t('open')}</span> },
+    { cls: 't-wifi', order: 1, name: t('tWifi'), line: t('tWifiLine'), ui: <span className="ui-chip ui-chip--on">{t('fWifi')}</span> },
+    { cls: 't-save', order: 2, name: t('tSave'), line: t('tSaveLine'), ui: <span className="ui-save"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4.5L6 21z" /></svg></span> },
+    { cls: 't-near', order: 4, name: t('tNear'), line: t('tNearLine'), ui: <span className="ui-dist">650<small>m</small></span> },
+    { cls: 't-lang', order: 5, name: t('tLang'), line: t('tLangLine'), ui: <span className="ui-lang"><b>EN</b><b lang="ar">ع</b></span> },
+    { cls: 't-closing', order: 6, name: t('tClosing'), line: t('tClosingLine'), ui: <span className="ui-bar"><i /></span> },
+    { cls: 't-outdoor', order: 7, name: t('tOutdoor'), line: t('tOutdoorLine'), ui: <span className="ui-chip">{t('fOutdoor')}</span> },
   ]
+  const tileV = reduce ? tileFade : wide ? tileIn : tileRise
+  const popV = reduce ? popFade : popIn
+  const inView = { initial: 'hidden', whileInView: 'shown', viewport: { once: true, amount: 0.3 } } as const
   return (
-    <section className="board" aria-labelledby="board-h">
-      <Reveal className="tile t-head" as="div">
+    <motion.section className="board" aria-labelledby="board-h" {...(wide ? inView : {})}>
+      <motion.div className="tile t-head" variants={tileV} custom={0} {...(wide ? {} : inView)}>
         <h2 id="board-h"><span>{t('boardHead1')}</span><span>{t('boardHead2')}</span></h2>
-      </Reveal>
-      {tiles.map((tile, i) => (
-        <Reveal key={tile.cls} className={'tile ' + tile.cls} delay={0.05 * (i % 4)} as="div">
-          <div className="tile__ui" data-ui aria-hidden="true">{tile.ui}</div>
-          <p className="tile__cap"><strong>{tile.name}</strong>{tile.line}</p>
-        </Reveal>
-      ))}
-    </section>
+      </motion.div>
+      {tiles.map((tile) => {
+        const i = wide ? tile.order : 0
+        return (
+          <motion.div key={tile.cls} className={'tile ' + tile.cls} variants={tileV} custom={i} {...(wide ? {} : inView)}>
+            <div className="tile__ui" data-ui aria-hidden="true">
+              <motion.span className="tile__pop" variants={popV} custom={i}>{tile.ui}</motion.span>
+            </div>
+            <p className="tile__cap"><strong>{tile.name}</strong>{tile.line}</p>
+          </motion.div>
+        )
+      })}
+    </motion.section>
   )
 }
 

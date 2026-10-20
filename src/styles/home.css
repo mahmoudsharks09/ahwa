@@ -62,7 +62,14 @@
 .tile__cap { position: absolute; z-index: 1; inset-inline-start: 20px; bottom: 18px; max-width: 30ch; font-size: 16px; line-height: 1.4; }
 .tile__cap strong { display: block; font-size: 18px; font-weight: 600; }
 .tile__ui { position: absolute; pointer-events: none; transition: transform 600ms var(--ease-out); }
-@media (hover: hover) and (pointer: fine) { .tile:hover .tile__ui { transform: scale(1.04) rotate(-1deg); } }
+.tile__pop { display: flex; }
+/* hovering one card fades the rest back toward the board, so the eye moves with the pointer;
+   it's an overlay rather than the tile's opacity, which the entrance animation sets inline */
+.tile::after { content: ''; position: absolute; inset: 0; z-index: 2; background: var(--bone); opacity: 0; pointer-events: none; transition: opacity 300ms ease; }
+@media (hover: hover) and (pointer: fine) {
+  .tile:hover .tile__ui { transform: scale(1.04) rotate(-1deg); }
+  .board:has(.tile:not(.t-head):hover) .tile:not(:hover)::after { opacity: .45; }
+}
 
 /* the enlarged interface pieces: built in em, scaled by font-size, cropped by two tile edges */
 .ui-status { display: inline-flex; align-items: center; gap: .35em; padding: .25em .55em .25em .4em; background: var(--paper); color: var(--ink); font-weight: 600; white-space: nowrap; }
